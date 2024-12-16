@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Wind Speed</h1>
+        <div class="prolog"><span class="metadata">behaveplus:crown:input:weather:wind-speed:20-ft-wind-speed:help behaveplus:surface:input:spot:hidden:wind-speed:20-ft-wind-speed:help behaveplus:surface:input:wind_speed:wind_speed:wind_speed:help behaveplus:mortality:compute-scorch-height:wind_speed:wind_speed:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/20 Foot Wind Speed SURFACE.flsnp" />
+    </body>
+</html>

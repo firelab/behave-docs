@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Resource Arrival Time (CONTAIN)</h1>
+        <p>Resource Arrival Time is the time that has elapsed from when the fire was reported until the containment resource arrives at the fire and begins fireline construction. All activities such as scouting and briefing that occur before line construction begins are included in Resource Arrival Time.</p>
+        <h2>Resource Arrival Time is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Fire Area at Initial Attack: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Fire Perimeter at Initial Attack: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Contain Status: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Time from Report: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Contained Area: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Fireline Constructed: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Number of Resources Used: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Containment Diagram: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Resource Name: (CONTAIN)</p>
+            </li>
+        </ul>
+    </body>
+</html>

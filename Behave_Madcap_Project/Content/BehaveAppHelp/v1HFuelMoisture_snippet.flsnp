@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="BehaveApp.Archive">
+    <head />
+    <body>
+        <h1 class="topictitle">1-h Fuel Moisture</h1>
+        <div class="prolog"><span class="metadata">behaveplus:crown:input:fuel_moisture:1-h-fuel-moisture:1-h-fuel-moisture:help behaveplus:surface:input:weather:1_h_fuel_moisture:1_h_fuel_moisture:help behaveplus:surface:output:fire_behavior:surface_fire:1_h_fuel_moisture:help behaveplus:surface:input:fuel_moisture:by-size-class:1-h-fuel-moisture:1-h-fuel-moisture:help</span>
+        </div>
+        <p>1-h Fuel Moisture</p>
+    </body>
+</html>

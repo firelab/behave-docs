@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Critical Surface Fireline Intensity</h1>
+        <div class="prolog"><span class="metadata">behaveplus:crown:output:fire_type:transition_to_crown_fire:critical_surface_fireline_intensity:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Final_Docs/Critical Surface Fireline.flsnp" />
+    </body>
+</html>

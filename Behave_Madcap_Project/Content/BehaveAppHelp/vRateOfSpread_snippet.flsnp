@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Rate of Spread</h1>
+        <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:rate_of_spread:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Rate of Spread SURFACE CROWN.flsnp" />
+    </body>
+</html>

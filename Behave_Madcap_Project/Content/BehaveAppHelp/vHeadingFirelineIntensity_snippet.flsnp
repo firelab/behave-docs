@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="BehaveApp.Archive">
+    <head />
+    <body>
+        <h1 class="topictitle">Heading Fireline Intensity</h1>
+        <div class="prolog"><span class="metadata">behaveplus:crown:output:fire_type:fire_behavior:active-crown-fireline-intensity:help behaveplus:surface:output:fire_behavior:surface_fire:heading:fireline-intensity:help</span>
+        </div>
+        <p>Fireline Intensity (SURFACE)<p>Fireline intensity is the amount of heat released per foot of fire front per second. The measurement extends one foot into the flaming zone by definition. It's a useful metric to evaluate the difficulty of containing a fire. Fireline intensity is a function of rate of spread and heat per unit area.</p><p>Fireline intensity and flame length are related to the heat felt by a person standing next to the flames.</p>Fireline Intensity is Used to Calculate<ul><li>Flame Length</li></ul><p><img alt="" /></p></p>
+    </body>
+</html>
