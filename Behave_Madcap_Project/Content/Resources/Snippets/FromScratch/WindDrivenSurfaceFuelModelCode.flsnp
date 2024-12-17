@@ -3,6 +3,7 @@
     <head>
     </head>
     <body>
-        <p>Wind Driven Surface Fuel Model Code snippet</p>
+        <h2 MadCap:conditions="BehaveApp.Title Exclude">Fuel Models Available for the Wind-Driven Surface Fire Spotting Model</h2>
+        <p>This spotting model was developed for grass fuel types, so a subset of fuel models are available to be selected. This spotting model can only be used for a wind-driven fire in surface fuels that are not sheltered from the wind by an overstory.</p>
     </body>
 </html>

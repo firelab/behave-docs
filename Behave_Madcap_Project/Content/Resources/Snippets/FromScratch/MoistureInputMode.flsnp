@@ -3,6 +3,10 @@
     <head>
     </head>
     <body>
-        <p>moisture input mode snippet</p>
+        <h2 MadCap:conditions="BehaveApp.Title Exclude">Moisture Input Mode</h2>
+        <p>There are three methods to enter fuel moisture values in Behave.</p>
+        <p><b>Individual Size Class</b> - The dead and live fuel moisture values displayed depend on the fuel model(s) selected. Users enter dead fuel moisture by size class. Live herbaceous or live woody fuel moisture are required if the fuel model has a live herbaceous or live woody fuel load, respectively.</p>
+        <p><b>Dead, Live Herb, and Live Woody Categories</b> - A single value is used for all dead fuel. Live herbaceous or live woody fuel moisture are required if the fuel model has a live herbaceous or live woody fuel load, respectively.</p>
+        <p><b>Moisture Scenario</b> - A moisture scenario is a set of values representing the moisture content of each category of surface fuel (see Fuel Moisture). A fuel moisture scenario is similar to a fuel model – it is a pre-packaged set of values used to complete runs. With a fuel moisture scenario, all dead and live fuel moisture values are combined into a single input, thus making outputs easier to understand.  The moisture scenarios used to develop the 40 fuel models are included with Behave (Scott and Burgan 2005). </p>
     </body>
 </html>

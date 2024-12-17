@@ -3,6 +3,14 @@
     <head>
     </head>
     <body>
-        <p>Wind direction degrees snippet</p>
+        <h2 MadCap:conditions="BehaveApp.Title Exclude">Wind Direction</h2>
+        <p>This input is required when wind and slope are not aligned. It represents the direction of the wind vector measured in degrees from upslope. The output helps to evaluate the combined influence of wind and slope on the direction of fire spread.</p>
+        <p>
+            <img src="../../Images/windupslope.png" alt="Wind direction from upslope in degrees." />
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
     </body>
 </html>
