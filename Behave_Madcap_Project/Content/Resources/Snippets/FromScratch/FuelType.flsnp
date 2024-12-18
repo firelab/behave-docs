@@ -3,6 +3,28 @@
     <head>
     </head>
     <body>
-        <p>fuel type snippet</p>
+        <p>Fuel models have been grouped by fuel type to help users sort the fuel model list.</p>
+        <p><b><u>Fuel Types</u></b>
+        </p>
+        <ul>
+            <li>
+                <p>Grass</p>
+            </li>
+            <li>
+                <p>Grass-Shrub</p>
+            </li>
+            <li>
+                <p>Shrub</p>
+            </li>
+            <li>
+                <p>Timber Understory</p>
+            </li>
+            <li>
+                <p>Timber Litter</p>
+            </li>
+            <li>
+                <p>Slash/Blowdown</p>
+            </li>
+        </ul>
     </body>
 </html>
