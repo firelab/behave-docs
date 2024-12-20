@@ -3,6 +3,17 @@
     <head>
     </head>
     <body>
-        <p>canopy height snippet</p>
+        <p>Canopy Height is the average height of the dominant and co-dominant trees in a stand. </p>
+        <p>The downwind canopy height is an input required to calculate the maximum spotting distance from torching trees.</p>
+        <h2>Canopy Height is Used to Calculate
+        </h2>
+        <ul>
+            <li>
+                <p>Maximum Spotting Distance from an Active Crown Fire</p>
+            </li>
+            <li>
+                <p>Tree Crown Length Scorched (Probability of Mortality)</p>
+            </li>
+        </ul>
     </body>
 </html>

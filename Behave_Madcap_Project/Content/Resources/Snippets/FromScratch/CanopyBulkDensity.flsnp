@@ -3,6 +3,31 @@
     <head>
     </head>
     <body>
-        <p>canopy bulk density snippet</p>
+        <p>Canopy Bulk Density (CBD) describes the mass of canopy fuel per unit of canopy volume. The default unit in Behave is metric (kg/m3) as that is what is reported in the scientific literature and is the default unit in LANDFIRE data.</p>
+        <p>CBD is used to calculate the critical crown fire rate of spread, which ultimately predicts if the canopy can sustain an active crown fire.</p>
+        <p>In the photo on the left, there is spacing between each tree canopy and it would be difficult for this stand to sustain an active crown fire as it has a low CBD. The photo on the right has multiple age classes. There was a previous timber harvest on the left and the younger trees are not as continuous as the mature stand on the right. The stand on the left has a lower CBD than the stand on the right. The mature stand could sustain active crown fire under the right conditions.</p>
+        <p>
+            <img src="../../Images/CBD_comparison.png" alt="Comparison of CBD between different stands." />
+        </p>
+        <p>Refer to the publication in the link below for photographs and canopy fuel characteristics for five Interior West forest types including:</p>
+        <ul>
+            <li>
+                <p>Douglas-fir/lodgepole pine</p>
+            </li>
+            <li>
+                <p>Lodgepole pine</p>
+            </li>
+            <li>
+                <p>Ponderosa pine/Douglas-fir</p>
+            </li>
+            <li>
+                <p>Ponderosa pine</p>
+            </li>
+            <li>
+                <p>Sierra Nevada mixed conifer</p>
+            </li>
+        </ul>
+        <p>Each stand had a low thinning implemented based on 100, 75, 50, and 25 percent of the initial basal area.</p>
+        <p>(<a href="https://research.fs.usda.gov/treesearch/8473" target="_blank">https://research.fs.usda.gov/treesearch/8473</a>)</p>
     </body>
 </html>
