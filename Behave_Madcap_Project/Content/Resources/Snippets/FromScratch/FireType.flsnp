@@ -55,7 +55,7 @@
                 </tr>
             </tbody>
         </table>
-        <p>
+        <p MadCap:conditions="BehaveApp.Archive">
             <img src="../../Images/FireType.png" alt="Type of predicted fire based on Active and Transition Ratios." />
         </p>
         <h1>Active Crown Fire</h1>

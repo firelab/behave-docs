@@ -3,6 +3,7 @@
     <head>
     </head>
     <body>
-        <p>mortality equation snippet</p>
+        <p>Crown Scorch and Bark Char are the two groups of mortality equations used in the Surface/Mortality module. The mortality equation used depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
+        <p>Refer to (<MadCap:annotation MadCap:createDate="2024-12-20T16:46:14.4057231-07:00" MadCap:creator="Josh" MadCap:initials="JO" MadCap:comment="LaWen still creating the doc, so just a general reference right now." MadCap:editor="Josh" MadCap:editDate="2024-12-20T16:46:32.5512178-07:00"><a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a></MadCap:annotation>) for additional documentation about tree mortality in the Key Documents.</p>
     </body>
 </html>
