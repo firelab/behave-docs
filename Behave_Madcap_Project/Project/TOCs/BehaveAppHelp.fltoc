@@ -957,7 +957,7 @@
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Flame Length"
-      Link="/Content/BehaveAppHelp/Resources/Snippets/Variables/vFlameLength.htm"
+      Link="/Content/BehaveAppHelp/Resources/Snippets/Variables/vSurfaceFlameLength.htm"
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Flame Residence Time"
@@ -1189,7 +1189,7 @@
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Rate of Spread"
-      Link="/Content/BehaveAppHelp/Resources/Snippets/Variables/vRateOfSpread.htm"
+      Link="/Content/BehaveAppHelp/Resources/Snippets/Variables/vCrownRateOfSpread.htm"
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Reaction Intensity"

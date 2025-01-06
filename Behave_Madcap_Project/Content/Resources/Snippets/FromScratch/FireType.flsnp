@@ -36,14 +36,16 @@
                 <tr>
                     <td rowspan="2" colspan="2" style="border-right-style: solid;border-right-width: 2px;border-right-color: #030303;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #030303;"><b>FIRE TYPE</b>
                     </td>
-                    <td colspan="2" style="text-align: center;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #030303;">Active Ratio</td>
+                    <td colspan="2" style="text-align: center;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #030303;"><b>Active Ratio</b>
+                    </td>
                 </tr>
                 <tr>
                     <td style="text-align: center;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #030303;">&lt; 1</td>
                     <td style="text-align: center;border-left-style: solid;border-left-width: 1px;border-left-color: #030303;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #030303;">≥ 1</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="border-right-style: solid;border-right-width: 1px;border-right-color: #030303;">Transition Ratio</td>
+                    <td rowspan="2" style="border-right-style: solid;border-right-width: 1px;border-right-color: #030303;"><b>Transition Ratio</b>
+                    </td>
                     <td style="text-align: center;border-right-style: solid;border-right-width: 2px;border-right-color: #030303;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #030303;">&lt; 1</td>
                     <td style="background-color: #c5e0b3;text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #030303;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #030303;">Surface</td>
                     <td style="background-color: #c5e0b3;text-align: center;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #030303;">Surface</td>
