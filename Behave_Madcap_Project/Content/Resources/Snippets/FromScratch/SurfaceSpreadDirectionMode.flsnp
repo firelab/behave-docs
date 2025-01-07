@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p><b>Heading</b> fire is the direction of maximum fire spread during flaming combustion based on slope and wind.&#160;</p>
+        <p><b>Heading, Backing, Flanking</b> option provides outputs for all spread directions. </p>
+        <ul>
+            <li>
+                <p>Backing fire spread is 180 degrees from heading.</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>Flanking fire spread is 90 degrees from heading and is calculated at the widest part of the ellipse.</p>
+            </li>
+        </ul>
+        <p><b>Direction of Interest</b> is for a user-specified direction. The input is in degrees from upslope.</p>
+    </body>
+</html>

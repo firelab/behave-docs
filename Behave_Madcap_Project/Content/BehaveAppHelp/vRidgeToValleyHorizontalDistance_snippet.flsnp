@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Ridge-to-Valley Horizontal Distance</h1>
+        <div class="prolog"><span class="metadata">behaveplus:surface:input:spot:topography:ridge_to_valley_horizontal_distance:ridge_to_valley_horizontal_distance:help behaveplus:crown:input:spotting:topography:ridge_to_valley_horizontal_distance:ridge_to_valley_horizontal_distance:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Ridge To Valley Horizontal.flsnp" />
+    </body>
+</html>

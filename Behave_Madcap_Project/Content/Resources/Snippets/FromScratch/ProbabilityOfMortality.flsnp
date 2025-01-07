@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The Probability of Mortality is the likelihood that a tree will be killed by fire. The mortality equation used depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
+        <p>&#160;</p>
+        <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+    </body>
+</html>

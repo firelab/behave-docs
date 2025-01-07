@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Maximum Spotting Distance from Active Crown Fire</h1>
+        <div class="prolog"><span class="metadata">behaveplus:crown:output:spotting_active_crown_fire:maximum_spotting_distance:maximum_spotting_distance:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/FromScratch/MaximumSpottingDistanceFromActiveCrownFire.flsnp" />
+    </body>
+</html>

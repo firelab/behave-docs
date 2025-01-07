@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Spread Distance (SURFACE, CROWN)</h1>
+        <p>Spread distance is the distance that the fire travels in a specified direction over a defined elapsed time. Spread distance can happen in multiple directions: heading, backing, and flanking, with each type displaying different fire behavior. </p>
+        <h2>Spread Distance is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Heading Fire Spread Distance</p>
+            </li>
+            <li>
+                <p>Backing Fire Spread Distance</p>
+            </li>
+            <li>
+                <p>Flanking Fire Spread Distance</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Active Crown Critical Open Wind Speed (CROWN)</h1>
+        <p>Active Crown Critical Open Wind Speed is an intermediate value that represents the open wind speed required to sustain a fully active crown fire (a fire that is moving from crown to crown). It is based on Scott and Reinhardt (2001) and is used to calculate the critical surface fire rate of spread for crown fire initiation in their crown fire method.</p>
+        <p>It is only generated as an output if <span class="span_2">Crown fire is calculated using Scott and Reinhardt (2001)</span> is selected as the input option. </p>
+        <h2>Active Crown Critical Open Wind Speed is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Critical Surface Fire Rate of Spread</p>
+            </li>
+        </ul>
+    </body>
+</html>

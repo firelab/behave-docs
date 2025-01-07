@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Critical Surface Fireline Intensity (CROWN)</h1>
+        <p>Critical Surface Fireline Intensity is an intermediate value that estimates the rate of heat transfer per unit of length at the flaming front, that is required for a surface fire to transition to a crown fire (fire moves from crown to crown). It is calculated from Foliar Moisture and Canopy Base Height.</p>
+        <h2>Critical Surface Fireline Intensity is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Transition Ratio</p>
+            </li>
+            <li>
+                <p>Fire Type (indirectly through Transition Ratio)</p>
+            </li>
+        </ul>
+    </body>
+</html>

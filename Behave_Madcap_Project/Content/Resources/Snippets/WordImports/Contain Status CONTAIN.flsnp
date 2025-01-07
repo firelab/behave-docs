@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Contain Status (CONTAIN)</h1>
+        <p>Contain Status is the final outcome of initial attack efforts. There are three possible scenarios:</p>
+        <ul>
+            <li>
+                <p>Contained – one or more of the initial attack resources successfully contained the fire.</p>
+            </li>
+            <li>
+                <p>Withdrawn – the resources constructed at least some fireline. Although they may have been gaining on the fire, they were unable to work long enough to contain it. The fire may be successfully contained by increasing the Resource Duration or adding additional resources.</p>
+            </li>
+            <li>
+                <p>Escaped – selected resources were unable to contain the fire. Additional resources will be needed to meet containment.</p>
+            </li>
+        </ul>
+        <h2>Contain Status is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>None</p>
+            </li>
+        </ul>
+    </body>
+</html>

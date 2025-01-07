@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Contain Status</h1>
+        <div class="prolog"><span class="metadata">behaveplus:contain:output:fire:containment:contain_status:help</span>
+        </div>
+        <p>Contain Status<p>Contain Status is the final outcome of initial attack efforts. There are three possible scenarios:</p><ul><li>Contained – one or more of the initial attack resources successfully contained the fire.</li></ul><ul><li>Withdrawn – the resources constructed at least some fireline. Although they may have been gaining on the fire, they were unable to work long enough to contain it. The fire may be successfully contained by increasing the Resource Duration or adding additional resources.</li></ul><ul><li>Escaped – selected resources were unable to contain the fire. Additional resources will be needed to meet containment.</li></ul>Contain Status is Used to Calculate<ul><li>None</li></ul></p>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">20-Foot Wind Speed (SURFACE)</h1>
+        <p>The 20-foot wind speed is the wind speed measured 20 feet (6.1 m) above the vegetation. For example, the wind speed at a Remote Automated Weather Station (RAWS) is measured at 20-feet above the vegetation.</p>
+        <h2>20-Foot Wind Speed is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Nearly everything related to fire behavior</p>
+            </li>
+        </ul>
+    </body>
+</html>
