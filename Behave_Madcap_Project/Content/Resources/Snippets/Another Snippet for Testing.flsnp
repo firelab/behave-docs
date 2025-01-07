@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head>
-    </head>
-    <body>
-        <h1 MadCap:conditions="BehaveApp.Title Exclude">Another Snippet for Testing</h1>
-        <p>A test snippet with placeholder text that can be used to test editing in Central and submitting edits.</p>
-    </body>
-</html>

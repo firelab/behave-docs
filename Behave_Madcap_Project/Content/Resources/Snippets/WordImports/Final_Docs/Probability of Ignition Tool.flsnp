@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
-    <body>
-        <h1 MadCap:conditions="BehaveApp.Title Exclude">Probability of Ignition Tool</h1>
-        <p>Probability of Ignition (0-100%) gives you an idea of how likely an ember is to start a fire based on site conditions. This tool only calculates Probability of Ignition from a firebrand. Probability of Ignition is based on 1-h Fuel Moisture, Air Temperature, and Fuel Shading from the Sun.</p>
-        <p>Fuel Shading from the Sun includes shading from both clouds <span class="span_1">and</span> overstory vegetation.</p>
-    </body>
-</html>
