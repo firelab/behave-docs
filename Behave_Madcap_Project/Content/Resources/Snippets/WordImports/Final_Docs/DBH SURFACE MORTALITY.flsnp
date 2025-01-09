@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">DBH (SURFACE, MORTALITY)</h1>
+        <p>DBH, or Diameter at Breast Height, is the measurement of the diameter of a tree at about 4.5 feet (1.4 m) above the ground.</p>
+        <h2>DBH is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Bark Thickness</p>
+            </li>
+            <li>
+                <p>Maximum Spotting Distance from Torching Trees</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Time from Report (CONTAIN)</h1>
+        <p>Time from Report is the time that has elapsed from when the fire was reported until it was either successfully contained or it has escaped. A fire is predicted to escape when specified resources are unsuccessful in lining the fire because they have hit the Resource Duration.</p>
+        <h2>Time from Report is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>None</p>
+            </li>
+        </ul>
+    </body>
+</html>

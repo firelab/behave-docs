@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html id="SurfaceFire" class="topic" lang="en-us" xml:lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../../../../../Resources/Branding/Branding.css" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" /><title>Surface Fire</title>
+        <link href="../../../../../BehaveAppHelp.css" rel="stylesheet" />
+        <meta name="tocPath" content="Surface|Fire Behavior|Surface Fire" />
+    </head>
+    <body>
+        <h1 class="topictitle">Surface Fire</h1>
+        <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:help</span>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:direction_of_interest_flame_length:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:direction_of_interest_fireline_intensity:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:direction_of_interest_spread_rate:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:rate_of_spread:help">
+            <h1 class="topictitle">Crown Rate of Spread</h1>
+            <div class="prolog"><span class="metadata">behaveplus:crown:output:fire_behavior:surface_fire:rate_of_spread:help</span>
+            </div>
+            <p>Rate of Spread is the “speed” at which the fire travels through surface or crown fuel. Fuel moisture, wind speed, slope, and fuel model are held constant and are assumed uniform. If you run SURFACE and CROWN together, outputs will be identified by fire type: surface, torching, or active crown fire.</p>
+            <p>Surface Rate of Spread is estimated using Rothermel’s (1972, 1983) surface fire spread model. Surface fuel includes litter, grass, brush, and other dead and live vegetation within about 6 feet (1.8 meters) of the ground.</p>
+            <p>Crown Rate of Spread (Rothermel 1991; Scott and Reinhardt 2001) is the forward rate of spread for a fire through the crown. The crown fire spread model is a simple correlation between spread rates from several historical crown fires and calculations from Rothermel’s surface spread model. It does not include a description of either the surface or crown fuel. Surface spread rate calculates for crown are based on fuel model 10.</p>
+            <h2>Direction of Spread</h2>
+            <p>By default, BehavePlus calculates rate of spread in the direction of maximum spread (heading fire). For surface fire, you can identify the direction of fire spread in any direction, including heading, flanking, and backing.</p>
+            <ul>
+                <li>
+                    <p>Heading fire is calculated in the direction of maximum spread.</p>
+                </li>
+                <li>
+                    <p>Backing fire is 180<sup>o</sup> from heading.</p>
+                </li>
+                <li>
+                    <p>Flanking fire is 90<sup>o</sup> from heading and is calculated at the widest part of the ellipse.</p>
+                </li>
+            </ul>
+            <p>&#160;</p>
+            <p>
+                <img src="../../../../../../Resources/Images/RateOfSpread/Rate of Spread SURFACE CROWN.png" class="img_5" />
+            </p>
+            <p>&#160;</p>
+            <p>For more information on fire spread direction options, see Fire Spread Directions (<span class="span_1">LINK</span>).</p>
+            <h2>Rate of Spread is Used to Calculate</h2>
+            <ul>
+                <li>
+                    <p>Fire Area</p>
+                </li>
+                <li>
+                    <p>Fire Perimeter</p>
+                </li>
+            </ul>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:flame_length:help">
+            <h1 class="topictitle">Flame Length</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:flame_length:help</span>
+            </div>
+            <p>Flame length is the distance from the middle of the flaming front at the base of the fire to the average tip of the flame. Wind and slope will both cause a flame to tilt. Flame length is a common metric used in the field as it is readily observable. It is related to fireline intensity. </p>
+            <p>
+                <img src="../../../../../../Resources/Images/FlameLength/Flame Length SURFACE.jpg" alt="Photo showing diagram of flame length." class="img_1" />
+            </p>
+            <p>Flame lengths vary with location on a fire, with heading fire having the longest flame lengths and backing fire the shortest flame lengths.</p>
+            <h2 class="h2_1">Flame Length is Used to Calculate </h2>
+            <ul>
+                <li>
+                    <p>Spotting distance</p>
+                </li>
+                <li>
+                    <p>Crown fire type</p>
+                </li>
+            </ul>
+            <h2>More Information</h2>
+            <p>&#160;</p>
+            <table>
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <tr>
+                    <td colspan="2" class="td_1">
+                        <p>Flame<br />Length<br />(ft)</p>
+                    </td>
+                    <td colspan="2" class="td_1">
+                        <p>Fireline<br />Intensity<br />(Btu/ft/s)</p>
+                    </td>
+                    <td rowspan="1" class="td_1">
+                        <p>Interpretations (Roussopoulos, 1974)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>(ft)</p>
+                    </td>
+                    <td>
+                        <p>(m)</p>
+                    </td>
+                    <td>
+                        <p>(Btu/ft/s)</p>
+                    </td>
+                    <td>
+                        <p>(kJ/m/s)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Under 4</p>
+                    </td>
+                    <td>
+                        <p>Under 1.2</p>
+                    </td>
+                    <td>
+                        <p>Under 100</p>
+                    </td>
+                    <td>
+                        <p>Under 350</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Fires can generally be attacked at the head or flanks by persons using hand tools.</p>
+                            </li>
+                            <li>
+                                <p>Hand line should hold the fire.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>4-8</p>
+                    </td>
+                    <td>
+                        <p>1.2-2.4</p>
+                    </td>
+                    <td>
+                        <p>100-500</p>
+                    </td>
+                    <td>
+                        <p>350-1700</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Fires are too intense for direct attack on the head by persons using hand tools.</p>
+                            </li>
+                            <li>
+                                <p>Hand line cannot be relied on to hold the fire.</p>
+                            </li>
+                            <li>
+                                <p>Equipment such as dozers, pumpers, and retardant aircraft can be effective.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>8-11</p>
+                    </td>
+                    <td>
+                        <p>2.4-3.4</p>
+                    </td>
+                    <td>
+                        <p>500-1000</p>
+                    </td>
+                    <td>
+                        <p>1700-3500</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Fires may present serious control problems such as torching out, crowning, and spotting. </p>
+                            </li>
+                            <li>
+                                <p>Control efforts at the fire head will probably be ineffective.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Over 11</p>
+                    </td>
+                    <td>
+                        <p>Over 3.4</p>
+                    </td>
+                    <td>
+                        <p>Over 1000</p>
+                    </td>
+                    <td>
+                        <p>Over 3500</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Crowning, spotting, and major fire runs are probable.</p>
+                            </li>
+                            <li>
+                                <p>Control efforts at head of fire are ineffective.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <p>&#160;</p>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:fireline_intensity:help">
+            <h1 class="topictitle">Fireline Intensity</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:fireline_intensity:help</span>
+            </div>
+            <p>Fireline intensity is the amount of heat released per foot of fire front per second. The measurement extends one foot into the flaming zone by definition. It’s a useful metric to evaluate the difficulty of containing a fire. Fireline intensity is a function of rate of spread and heat per unit area.</p>
+            <p>Fireline intensity and flame length are related to the heat felt by a person standing next to the flames. </p>
+            <h2>Fireline Intensity is Used to Calculate</h2>
+            <ul>
+                <li>
+                    <p>Flame Length</p>
+                </li>
+            </ul>
+            <h2>More Information</h2>
+            <p>&#160;</p>
+            <table>
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="td_1">
+                            <p>Flame<br />Length<br />(ft)</p>
+                        </td>
+                        <td colspan="2" class="td_1">
+                            <p>Fireline<br />Intensity<br />(Btu/ft/s)</p>
+                        </td>
+                        <td rowspan="1" class="td_1">
+                            <p>Interpretations (Roussopoulos, 1974)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>(ft)</p>
+                        </td>
+                        <td>
+                            <p>(m)</p>
+                        </td>
+                        <td>
+                            <p>(Btu/ft/s)</p>
+                        </td>
+                        <td>
+                            <p>(kJ/m/s)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Under 4</p>
+                        </td>
+                        <td>
+                            <p>Under 1.2</p>
+                        </td>
+                        <td>
+                            <p>Under 100</p>
+                        </td>
+                        <td>
+                            <p>Under 350</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <p>Fires can generally be attacked at the head or flanks by persons using hand tools.</p>
+                                </li>
+                                <li>
+                                    <p>Hand line should hold the fire.</p>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>4-8</p>
+                        </td>
+                        <td>
+                            <p>1.2-2.4</p>
+                        </td>
+                        <td>
+                            <p>100-500</p>
+                        </td>
+                        <td>
+                            <p>350-1700</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <p>Fires are too intense for direct attack on the head by persons using hand tools.</p>
+                                </li>
+                                <li>
+                                    <p>Hand line cannot be relied on to hold the fire.</p>
+                                </li>
+                                <li>
+                                    <p>Equipment such as dozers, pumpers, and retardant aircraft can be effective.</p>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>8-11</p>
+                        </td>
+                        <td>
+                            <p>2.4-3.4</p>
+                        </td>
+                        <td>
+                            <p>500-1000</p>
+                        </td>
+                        <td>
+                            <p>1700-3500</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <p>Fires may present serious control problems such as torching out, crowning, and spotting. </p>
+                                </li>
+                                <li>
+                                    <p>Control efforts at the fire head will probably be ineffective.</p>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Over 11</p>
+                        </td>
+                        <td>
+                            <p>Over 3.4</p>
+                        </td>
+                        <td>
+                            <p>Over 1000</p>
+                        </td>
+                        <td>
+                            <p>Over 3500</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <p>Crowning, spotting, and major fire runs are probable.</p>
+                                </li>
+                                <li>
+                                    <p>Control efforts at head of fire are ineffective.</p>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p />
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:heat_per_unit_area:help">
+            <h1 class="topictitle">Heat per Unit Area</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:heat_per_unit_area:help</span>
+            </div>
+            <p>Heat per Unit Area</p>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:reaction_intensity:help">
+            <h1 class="topictitle">Reaction Intensity</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:reaction_intensity:help</span>
+            </div>
+            <p>Reaction Intensity</p>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:direction_of_heading:help">
+            <h1 class="topictitle">Direction of Heading</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:direction_of_heading:help</span>
+            </div>
+            <p>direction of heading snippet</p>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:direction_of_backing">
+            <h1 class="topictitle">Direction of Backing</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:direction_of_backing</span>
+            </div>
+            <p>direction of backing snippet</p>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:direction_of_flanking:help">
+            <h1 class="topictitle">Direction of Flanking</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:direction_of_flanking:help</span>
+            </div>
+            <p>direction of flanking snippet</p>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:heading:heading_rate_of_spread:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:heading:heading_flame_length:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:heading:fireline-intensity:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:backing:backing_rate_of_spread:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:backing:backing_flame_length:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:backing:fireline-intensity:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:flanking:flanking_rate_of_spread:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:flanking:flanking_flame_length:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:flanking:fireline-intensity:help">
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:windslopespread-direction-diagram:help">
+            <h1 class="topictitle">Wind/Slope/Spread Direction Diagram</h1>
+            <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:windslopespread-direction-diagram:help</span>
+            </div>
+            <p>This diagram is an automated output that will be displayed in the Run Results if a user selects either of the following:</p>
+            <ul>
+                <li>
+                    <p>Direction of Interest as the direction mode rather than Heading or Heading, Backing, Flanking</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Wind and slope are not aligned.</p>
+                </li>
+            </ul>
+            <p>The diagram displays the direction of heading (maximum spread), flanking, backing, and wind. It also displays the direction for the direction of interest if used. The y-axis (the axis that goes up) is considered uphill.</p>
+        </div>
+        <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:1_h_fuel_moisture:help">
+        </div>
+    </body>
+</html>

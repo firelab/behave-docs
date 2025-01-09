@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Contained Area</h1>
+        <div class="prolog"><span class="metadata">behaveplus:contain:output:fire:containment:contained_area:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Contained Area CONTAINED.flsnp" />
+    </body>
+</html>

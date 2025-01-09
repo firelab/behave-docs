@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Line Construction Offset</h1>
+        <div class="prolog"><span class="metadata">behaveplus:contain:input:suppression:line_construction_offset:line_construction_offset:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Line Construction Offset CONTAIN.flsnp" />
+    </body>
+</html>
