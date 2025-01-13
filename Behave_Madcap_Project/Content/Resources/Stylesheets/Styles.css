@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 body
 {
@@ -226,8 +226,9 @@ h4
 
 h5
 {
-	font-weight: bold;
-	font-size: 10.0pt;
+	font-size: 12pt;
+	font-weight: normal;
+	text-decoration: underline;
 }
 
 h6
@@ -412,7 +413,7 @@ div.topic-hero h1
 	/*color: var(--Light);*/
 	font-size: 48pt;
 	text-align: center;
-	text-shadow:1px 1px 2px #000;
+	text-shadow: 1px 1px 2px #000;
 }
 
 html.home-topic	/*Used on home topic to override padding set in the skin*/
@@ -723,7 +724,7 @@ p.footer-sub
 		width: 49%;
 		margin-left: 25.5%;
 	}
-	
+
 	.home-footer-logo
 	{
 		padding: 20px;
@@ -790,3 +791,4 @@ p.footer-sub
 		text-decoration: none;
 	}
 }
+

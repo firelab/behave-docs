@@ -23,28 +23,29 @@
             <h1 class="topictitle">Crown Rate of Spread</h1>
             <div class="prolog"><span class="metadata">behaveplus:crown:output:fire_behavior:surface_fire:rate_of_spread:help</span>
             </div>
-            <p>Rate of Spread is the “speed” at which the fire travels through surface or crown fuel. Fuel moisture, wind speed, slope, and fuel model are held constant and are assumed uniform. If you run SURFACE and CROWN together, outputs will be identified by fire type: surface, torching, or active crown fire.</p>
-            <p>Surface Rate of Spread is estimated using Rothermel’s (1972, 1983) surface fire spread model. Surface fuel includes litter, grass, brush, and other dead and live vegetation within about 6 feet (1.8 meters) of the ground.</p>
-            <p>Crown Rate of Spread (Rothermel 1991; Scott and Reinhardt 2001) is the forward rate of spread for a fire through the crown. The crown fire spread model is a simple correlation between spread rates from several historical crown fires and calculations from Rothermel’s surface spread model. It does not include a description of either the surface or crown fuel. Surface spread rate calculates for crown are based on fuel model 10.</p>
-            <h2>Direction of Spread</h2>
-            <p>By default, BehavePlus calculates rate of spread in the direction of maximum spread (heading fire). For surface fire, you can identify the direction of fire spread in any direction, including heading, flanking, and backing.</p>
+            <p>Rate of Spread is the “speed” at which the fire travels through surface and crown fuel. Fuel moisture, wind speed, slope, and fuel model are held constant and are assumed uniform although you can use multiple values or a range of values. Outputs in the Surface/Crown module will be identified by fire type: surface, torching, or active crown fire.</p>
+            <h5><b>Surface Fire</b>
+            </h5>
+            <p>If surface fire is predicted, the Surface Rate of Spread is estimated using Rothermel’s (1972, 1983) surface fire spread model. Surface fuel includes litter, grass, brush, and other dead and live vegetation within 6 feet (1.8 meters) of the ground.</p>
+            <h5><b>Torching Fire</b>
+            </h5>
+            <p>If torching is predicted, the Rate of Spread will be:</p>
             <ul>
                 <li>
-                    <p>Heading fire is calculated in the direction of maximum spread.</p>
+                    <p>The same as a  surface fire when using the <u>Finney crown fire method</u> </p>
                 </li>
                 <li>
-                    <p>Backing fire is 180<sup>o</sup> from heading.</p>
-                </li>
-                <li>
-                    <p>Flanking fire is 90<sup>o</sup> from heading and is calculated at the widest part of the ellipse.</p>
+                    <p>Higher (between surface and active crown fire) when using the <u>Scott &amp; Reinhardt crown fire method</u>.</p>
                 </li>
             </ul>
+            <h5><b>Active Crown Fire</b>
+            </h5>
+            <p>If active crown fire is predicted, the Crown Rate of Spread (Rothermel 1991; Finney 2004; Scott and Reinhardt 2001) is the forward rate of spread for a fire through the crown. The crown fire spread model is a simple correlation between spread rates from several historical crown fires and calculations from Rothermel’s surface spread model. It does not include a description of either the surface or crown fuel. </p>
+            <h2>&#160;</h2>
             <p>&#160;</p>
-            <p>
-                <img src="../../../../../../Resources/Images/RateOfSpread/Rate of Spread SURFACE CROWN.png" class="img_5" />
-            </p>
             <p>&#160;</p>
-            <p>For more information on fire spread direction options, see Fire Spread Directions (<span class="span_1">LINK</span>).</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
             <h2>Rate of Spread is Used to Calculate</h2>
             <ul>
                 <li>
@@ -59,12 +60,12 @@
             <h1 class="topictitle">Flame Length</h1>
             <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:flame_length:help</span>
             </div>
-            <p>Flame length is the distance from the middle of the flaming front at the base of the fire to the average tip of the flame. Wind and slope will both cause a flame to tilt. Flame length is a common metric used in the field as it is readily observable. It is related to fireline intensity. </p>
+            <p>Flame length is the distance from the middle of the flaming front at the base of the fire to the average tip of the flame. Wind and slope will both cause a flame to tilt. Flame length is a common metric used in the field as it is readily observable. It is related to fireline intensity.</p>
             <p>
                 <img src="../../../../../../Resources/Images/FlameLength/Flame Length SURFACE.jpg" alt="Photo showing diagram of flame length." class="img_1" />
             </p>
             <p>Flame lengths vary with location on a fire, with heading fire having the longest flame lengths and backing fire the shortest flame lengths.</p>
-            <h2 class="h2_1">Flame Length is Used to Calculate </h2>
+            <h5>Flame Length is Used to Calculate</h5>
             <ul>
                 <li>
                     <p>Spotting distance</p>
@@ -73,8 +74,7 @@
                     <p>Crown fire type</p>
                 </li>
             </ul>
-            <h2>More Information</h2>
-            <p>&#160;</p>
+            <h3>More Information</h3>
             <table>
                 <col />
                 <col />
@@ -88,7 +88,7 @@
                     <td colspan="2" class="td_1">
                         <p>Fireline<br />Intensity<br />(Btu/ft/s)</p>
                     </td>
-                    <td rowspan="1" class="td_1">
+                    <td class="td_1">
                         <p>Interpretations (Roussopoulos, 1974)</p>
                     </td>
                 </tr>
@@ -105,6 +105,7 @@
                     <td>
                         <p>(kJ/m/s)</p>
                     </td>
+                    <td>&#160;</td>
                 </tr>
                 <tr>
                     <td>
@@ -122,7 +123,7 @@
                     <td>
                         <ul>
                             <li>
-                                <p>Fires can generally be attacked at the head or flanks by persons using hand tools.</p>
+                                <p>Fires can generally be attacked at the head or flanks using hand tools.</p>
                             </li>
                             <li>
                                 <p>Hand line should hold the fire.</p>
@@ -146,13 +147,13 @@
                     <td>
                         <ul>
                             <li>
-                                <p>Fires are too intense for direct attack on the head by persons using hand tools.</p>
+                                <p>Fires are too intense for direct attack on the head using hand tools.</p>
                             </li>
                             <li>
                                 <p>Hand line cannot be relied on to hold the fire.</p>
                             </li>
                             <li>
-                                <p>Equipment such as dozers, pumpers, and retardant aircraft can be effective.</p>
+                                <p>Heavy equipment can be effective.</p>
                             </li>
                         </ul>
                     </td>
@@ -173,7 +174,7 @@
                     <td>
                         <ul>
                             <li>
-                                <p>Fires may present serious control problems such as torching out, crowning, and spotting. </p>
+                                <p>Fires may present serious control problems such as torching out, crowning, and spotting.</p>
                             </li>
                             <li>
                                 <p>Control efforts at the fire head will probably be ineffective.</p>
@@ -206,7 +207,6 @@
                     </td>
                 </tr>
             </table>
-            <p>&#160;</p>
         </div>
         <div class="div" id="behaveplus:surface:output:fire_behavior:surface_fire:fireline_intensity:help">
             <h1 class="topictitle">Fireline Intensity</h1>
