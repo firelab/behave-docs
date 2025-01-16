@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head>
-    </head>
-    <body>
-        <p>Scorch Height is the maximum vertical height above the ground at which lethal scorching of crown foliage occurs. Below this height, the temperature is above the lethal temperature necessary to kill live foliage. This temperature is assumed to be 140 degrees F (60 degrees C).</p>
-        <p>Scorch height is an automated output in the Surface/Mortality module.</p>
-    </body>
-</html>

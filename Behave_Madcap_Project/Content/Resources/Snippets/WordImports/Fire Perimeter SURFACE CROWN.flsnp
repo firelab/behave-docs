@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
-    <body>
-        <h1 MadCap:conditions="BehaveApp.Title Exclude">Fire Perimeter (SURFACE, CROWN)</h1>
-        <p>Fire Perimeter is the perimeter of a surface fire that starts from a point source. It assumes the fire has an elliptical shape and there is no suppression. Calculation of Fire Perimeter is calculated from Rate of Spread, Elapsed Time, and wind speed. In SURFACE, Effective Wind Speed is used. In CROWN, 20-ft Wind Speed is used.</p>
-        <p>&#160;</p>
-    </body>
-</html>
