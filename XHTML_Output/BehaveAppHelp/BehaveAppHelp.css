@@ -1,0 +1,56 @@
+/*<meta />*/
+
+h1.topictitle
+{
+	
+}
+
+html.topic
+{
+	font-family: sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 6pt;
+	margin-bottom: 9pt;
+}
+
+div.prolog
+{
+	
+}
+
+span.metadata
+{
+	background-color: #66FF66;
+	border-left: thin solid red;
+	border-right: thin solid red;
+	border-top: thin solid red;
+	border-bottom: thin solid red;
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 6pt;
+	margin-left: 2pt;
+	margin-right: 2pt;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+}
+
+p
+{
+	margin-top: 6pt;
+}
+
+ul
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+}
+
+li
+{
+	margin-left: 20pt;
+	margin-top: 6pt;
+	margin-bottom: 2pt;
+}
+

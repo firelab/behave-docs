@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Fire Area at First Resource Arrival Time</h1>
+        <div class="prolog"><span class="metadata">behaveplus:contain:output:fire:fire_size___at_resource_arrival_time:fire_area___at_resource_arrival_time:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Fire Area at Resource Arrival.flsnp" />
+    </body>
+</html>

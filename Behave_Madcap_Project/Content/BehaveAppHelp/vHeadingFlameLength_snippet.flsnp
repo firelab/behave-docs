@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="BehaveApp.Archive">
+    <head />
+    <body>
+        <h1 class="topictitle">Heading Flame Length</h1>
+        <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:heading:heading_flame_length:help behaveplus:crown:output:fire_type:fire_behavior:flame_length:help behaveplus:surface:input:spot:hidden:flame-length:flame-length:help behaveplus:surface:input:spot:surface-fire-flame-length:heading-flame-length:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/FromScratch/HeadingFlameLength.flsnp" />
+    </body>
+</html>

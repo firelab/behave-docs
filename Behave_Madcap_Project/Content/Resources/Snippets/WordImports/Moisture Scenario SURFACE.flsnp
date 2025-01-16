@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Moisture Scenario (SURFACE)</h1>
+        <p>A moisture scenario is a set of values representing the moisture content of each category of surface fuel (see Fuel Moisture). A fuel moisture scenario is similar to a fuel model – it is a pre-packaged set of values used to complete runs. With a fuel moisture scenario, all dead and live fuel moisture values are combined into a single input, thus making outputs easier to understand.</p>
+        <p>The moisture scenarios used to develop the 40 fuel models are included with Behave (Scott and Burgan 2005). Users can also create fuel moisture scenarios relevant to local areas and weather conditions, or for developing elements within a prescribed fire plan.</p>
+    </body>
+</html>

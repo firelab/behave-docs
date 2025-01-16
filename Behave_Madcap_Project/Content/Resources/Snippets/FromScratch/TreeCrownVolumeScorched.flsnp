@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Tree Crown Volume Scorched is the percentage of the tree crown volume that is scorched.</p>
+        <p><b>Total Crown Length</b> = tree height x (crown ratio/10)</p>
+        <p><b>Crown Length Scorched</b> = scorch height - (tree height - total crown length)</p>
+        <p><b>Percent Crown Volume Scorched</b> = 100 x (crown length scorched x (2 x total crown length - crown length scorched)) / total crown length ^2</p>
+        <p>The following species use the tree crown volume scorched model.</p>
+        <table style="width: 100%;">
+            <colgroup>
+                <col />
+                <col />
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td><b>Scientific Name</b>
+                    </td>
+                    <td><b>Common Name</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>Pinus contorta</i>
+                    </td>
+                    <td>lodgepole pine</td>
+                </tr>
+                <tr>
+                    <td><i>Pinus albicaulis</i>
+                    </td>
+                    <td>whitebark pine</td>
+                </tr>
+                <tr>
+                    <td><i>Picea engelmannii</i>
+                    </td>
+                    <td>Engelmann spruce</td>
+                </tr>
+                <tr>
+                    <td><i>Abies lasiocarpa</i>
+                    </td>
+                    <td>subalpine fir</td>
+                </tr>
+                <tr>
+                    <td><i>Pinus ponderosa</i>, <i>Pinus jeffreyi</i></td>
+                    <td>ponderosa pine, Jeffrey pine</td>
+                </tr>
+                <tr>
+                    <td><i>Pseudotsuga menziesii</i>
+                    </td>
+                    <td>Douglas-fir</td>
+                </tr>
+                <tr>
+                    <td><i>Larix occidentalis</i>
+                    </td>
+                    <td>western Larch</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+    </body>
+</html>

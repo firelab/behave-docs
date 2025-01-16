@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Flame Length (SURFACE)</h1>
+        <p>Flame length is the distance from the middle of the flaming front at the base of the fire to the average tip of the flame. Wind and slope will both cause a flame to tilt. Flame length is a common metric used in the field as it is readily observable. It is related to fireline intensity.</p>
+        <p>
+            <img src="../../Images/FlameLength/Flame Length SURFACE.jpg" alt="Photo showing diagram of flame length." class="img_1" />
+        </p>
+        <p>Flame lengths vary with location on a fire, with heading fire having the longest flame lengths and backing fire the shortest flame lengths.</p>
+        <h5>Flame Length is Used to Calculate</h5>
+        <ul>
+            <li>
+                <p>Spotting distance</p>
+            </li>
+            <li>
+                <p>Crown fire type</p>
+            </li>
+        </ul>
+        <h3>More Information</h3>
+        <table>
+            <col />
+            <col />
+            <col />
+            <col />
+            <col />
+            <tr>
+                <td colspan="2" class="td_1">
+                    <p>Flame<br />Length<br />(ft)</p>
+                </td>
+                <td colspan="2" class="td_1">
+                    <p>Fireline<br />Intensity<br />(Btu/ft/s)</p>
+                </td>
+                <td class="td_1">
+                    <p>Interpretations (Roussopoulos, 1974)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>(ft)</p>
+                </td>
+                <td>
+                    <p>(m)</p>
+                </td>
+                <td>
+                    <p>(Btu/ft/s)</p>
+                </td>
+                <td>
+                    <p>(kJ/m/s)</p>
+                </td>
+                <td>&#160;</td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Under 4</p>
+                </td>
+                <td>
+                    <p>Under 1.2</p>
+                </td>
+                <td>
+                    <p>Under 100</p>
+                </td>
+                <td>
+                    <p>Under 350</p>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <p>Fires can generally be attacked at the head or flanks using hand tools.</p>
+                        </li>
+                        <li>
+                            <p>Hand line should hold the fire.</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>4-8</p>
+                </td>
+                <td>
+                    <p>1.2-2.4</p>
+                </td>
+                <td>
+                    <p>100-500</p>
+                </td>
+                <td>
+                    <p>350-1700</p>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <p>Fires are too intense for direct attack on the head using hand tools.</p>
+                        </li>
+                        <li>
+                            <p>Hand line cannot be relied on to hold the fire.</p>
+                        </li>
+                        <li>
+                            <p>Heavy equipment can be effective.</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>8-11</p>
+                </td>
+                <td>
+                    <p>2.4-3.4</p>
+                </td>
+                <td>
+                    <p>500-1000</p>
+                </td>
+                <td>
+                    <p>1700-3500</p>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <p>Fires may present serious control problems such as torching out, crowning, and spotting.</p>
+                        </li>
+                        <li>
+                            <p>Control efforts at the fire head will probably be ineffective.</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Over 11</p>
+                </td>
+                <td>
+                    <p>Over 3.4</p>
+                </td>
+                <td>
+                    <p>Over 1000</p>
+                </td>
+                <td>
+                    <p>Over 3500</p>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <p>Crowning, spotting, and major fire runs are probable.</p>
+                        </li>
+                        <li>
+                            <p>Control efforts at head of fire are ineffective.</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

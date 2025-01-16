@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The Active Crown Fire Flame Length is added as an input when you select Maximum Spotting Distance from an Active Crown Fire as an output and have not selected any fire behavior behavior outputs, such as rate of spread or flame length.</p>
+        <p>This input can be based on observed crown fire flame lengths or an estimated crown fire flame length.</p>
+    </body>
+</html>

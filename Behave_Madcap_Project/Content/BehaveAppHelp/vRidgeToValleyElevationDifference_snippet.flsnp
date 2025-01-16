@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Ridge-to-Valley Elevation Difference</h1>
+        <div class="prolog"><span class="metadata">behaveplus:surface:input:spot:topography:ridge_to_valley_elevation_difference:ridge_to_valley_elevation_difference:help behaveplus:crown:input:spotting:topography:ridge_to_valley_elevation_difference:ridge_to_valley_elevation_difference:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Ridge To Valley Elevation.flsnp" />
+    </body>
+</html>

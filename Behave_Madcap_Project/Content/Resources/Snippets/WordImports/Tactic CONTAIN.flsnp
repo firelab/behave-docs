@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Tactic (CONTAIN)</h1>
+        <p>Two suppression tactics are possible. Fireline is constructed starting at the head of the fire (<span class="span_1">Head Attack</span>) or the heel of the fire (<span class="span_1">Rear Attack</span>) at a specified distance from the perimeter (Line Construction Offset).</p>
+        <p>In the containment model, the entire fire perimeter is active and line construction proceeds equally along both flanks of the fire. Thus, the actual construction rate on either flank is half the specified line construction rate. The model assumes the line holds and there are no slopovers along the completed line.</p>
+    </body>
+</html>

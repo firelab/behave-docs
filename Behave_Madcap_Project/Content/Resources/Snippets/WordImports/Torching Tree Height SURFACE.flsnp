@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Torching Tree Height (SURFACE)</h1>
+        <p>Torching Tree Height is the height measured from the ground to the top of a torching tree. For group tree torching, it is the average height of the torching trees. Torching Tree Height can be different than Downwind Canopy Height.</p>
+        <p>
+            <img src="../../Images/TorchingTreeHeight/Torching Tree Height SURFACE.jpg" alt="Image showing Torching Tree Height (single tree) and Torching Tree Height (group)." class="img_8" />
+        </p>
+        <h2>Torching Tree Height is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Maximum Spotting Distance from Torching Trees</p>
+            </li>
+        </ul>
+    </body>
+</html>

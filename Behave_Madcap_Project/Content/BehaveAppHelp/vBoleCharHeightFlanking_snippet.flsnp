@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <h1 class="topictitle">Bole Char Height Flanking</h1>
+        <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:bole_char_height_flanking:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/FromScratch/BoleCharHeightFlanking.flsnp" />
+    </body>
+</html>

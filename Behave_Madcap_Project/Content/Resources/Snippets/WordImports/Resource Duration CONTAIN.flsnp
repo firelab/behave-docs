@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Resource Duration (CONTAIN)</h1>
+        <p>Resource Duration is the length of time that a given containment resource can sustain its line production rate for the entire shift. A resource begins line construction at the specified Resource Arrival Time, builds line at its specified Resource Line Production Rate, and stops building line when its Resource Duration has been met. Resources are added to the model based on arrival time until the fire is contained, or the fire is predicted to have escaped regardless of resources still in travel status. </p>
+        <p>&#160;</p>
+        <h2>Resource Duration is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Fire Area at Initial Attack: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Fire Perimeter at Initial Attack: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Contain Status: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Time from Report: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Contained Area: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Fireline Constructed: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Number of Resources Used: (CONTAIN)</p>
+            </li>
+            <li>
+                <p>Containment Diagram: (CONTAIN)</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="BehaveApp.Archive">
+    <head />
+    <body>
+        <h1 class="topictitle">Live Woody Fuel Moisture</h1>
+        <div class="prolog"><span class="metadata">behaveplus:crown:input:fuel_moisture:live-woody-fuel-moisture:live-woody-fuel-moisture:help behaveplus:surface:input:fuel_moisture:by-size-class:live-woody-fuel-moisture:live-woody-fuel-moisture:help behaveplus:surface:input:fuel_moisture:dead-live-herb-and-live-woody-categories:live-woody-fuel-moisture:live-woody-fuel-moisture:help</span>
+        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/FromScratch/LiveWoodyFuelMoisture.flsnp" />
+    </body>
+</html>

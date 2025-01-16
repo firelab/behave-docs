@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Contained Area (CONTAINED)</h1>
+        <p>Contained Area is the area enclosed with the fireline (Fireline Constructed). If the Line Construction Offset is greater than zero, this area is larger than the predicted fire area at containment. If the fire is predicted to escape, the Contained Area is -1. </p>
+        <p>The contained area is not equivalent to Fire Area in the SURFACE module.</p>
+        <h2>Contained Area is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>None</p>
+            </li>
+        </ul>
+    </body>
+</html>

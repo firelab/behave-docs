@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Critical Surface Fire Flame Length (CROWN)</h1>
+        <p>Flame length is defined as the distance measured from the average flame tip to the middle of the flaming zone at the base of the fire. It is measured on a slant when the flames are tilted due to effects of wind and slope. Critical Surface Fire Flame Length is an indicator of Critical Surface Fireline Intensity, which is the rate of energy release required for a surface fire to transition to a crown fire (fire moves from crown to crown).&#160; </p>
+        <p>
+            <img src="../../../Images/CriticalSurfaceFireFlameLength/Critical Surface Fire Flame.jpg" alt="Photo showing diagram of flame length." class="img_1" />
+        </p>
+        <p>Critical Surface Fire Flame Length is an intermediate value and is only displayed as an output if it is selected on the intermediate outputs tab.</p>
+        <h2>Critical Surface Fire Flame Length is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Transition Ratio</p>
+            </li>
+            <li>
+                <p>Fire Type (indirectly through Transition Ratio)</p>
+            </li>
+        </ul>
+    </body>
+</html>

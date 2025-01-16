@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+<head></head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Length-to-Width Ratio (SURFACE, CROWN)</h1>
+        <p>Length-to-Width Ratio describes the appearance of an elliptically shaped fire. Fires burning under higher wind speeds have a larger length-to-width ratio and thus will be long and narrow. It is affected by both wind speed and slope in a surface fire, which are combined to calculate the effective wind speed. Slope is not factored into the length-to-width ratio for a crown fire; the only input is 20-ft wind speed.</p>
+        <p>It is calculated as Heading Spread Distance plus the Backing Spread Distance divided by the Flanking Spread Distance. The image below shows calculated length-to-width ratio for surface fire (left) and crown fire (right) for a variety of effective wind speeds. To demonstrate the effect of wind on fire shape, the length is constant for all fires in the image.</p>
+        <p>
+            <img src="../../Images/LengthToWidthRatio/Length to Width Ratio SURFACE.jpg" alt="Diagram shows length-to-width ratio for surface and crown fire." class="img_2" />
+        </p>
+        <p>&#160;</p>
+        <h2>Length-to-Width Ratio is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Fire Area</p>
+            </li>
+            <li>
+                <p>Fire Perimeter</p>
+            </li>
+        </ul>
+    </body>
+</html>
