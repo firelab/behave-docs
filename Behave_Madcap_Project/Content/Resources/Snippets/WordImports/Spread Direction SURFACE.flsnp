@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
+    <head>
+    </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Spread Direction (SURFACE)</h1>
         <p>Spread Direction is the direction in which rate of spread and flame length are calculated. It can be heading, backing, flanking, or somewhere in between.</p>
+        <p>
+            <img src="../../Images/Heading-Backing-Flanking.jpg" alt="A fire spreading with backing, flanking, and heading fire all active." />
+        </p>
         <p>There are three input options.</p>
         <ul>
             <li>
@@ -31,7 +35,6 @@
             </li>
         </ul>
         <p>Direction of Maximum Spread is always calculated for the head of the fire, regardless of the selection made for the remainder of the calculations.</p>
-        <p>&#160;</p>
         <p>
             <img src="../../Images/SpreadDirection/Spread Direction SURFACE.jpg" alt="Spread Direction degrees from clockwise up slope in degrees." class="img_7" />
         </p>

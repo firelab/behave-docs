@@ -442,8 +442,7 @@
           Title="Active Crown Flame Length"
           Link="/Content/BehaveAppHelp/Content/Modules/Crown/Inputs/Spot/FireBehavior/ActiveCrownFlameLength.htm" />
         <TocEntry
-          Title="Active Crown Flame Length (Hidden)"
-          Link="/Content/BehaveAppHelp/Content/Modules/Crown/Inputs/Spot/FireBehavior/ActiveCrownFlameLengthHidden.htm" />
+          Title="Active Crown Flame Length (Hidden)" />
       </TocEntry>
       <TocEntry
         Title="Linked Inputs (hidden)"
@@ -713,7 +712,6 @@
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Active Crown Flame Length"
-      Link="/Content/BehaveAppHelp/Resources/Snippets/Variables/vActiveCrownFlameLength.htm"
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Active Ratio"

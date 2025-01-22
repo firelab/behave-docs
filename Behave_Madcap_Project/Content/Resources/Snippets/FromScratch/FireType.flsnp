@@ -60,7 +60,7 @@
         <p MadCap:conditions="BehaveApp.Archive">
             <img src="../../Images/FireType.png" alt="Type of predicted fire based on Active and Transition Ratios." />
         </p>
-        <h1>Active Crown Fire</h1>
+        <h4>Active Crown Fire</h4>
         <p>The <b>Active Ratio</b> compares the crown fire rate of spread to the critical crown fire rate of spread for the given conditions. Canopy Bulk Density has the greatest influence on the Active Ratio.</p>
         <ul>
             <li>
@@ -68,8 +68,7 @@
             </li>
         </ul>
         <p>An active crown fire is predicted if the <b>Critical Crown Rate of Spread</b> is greater than the crown rate of spread.</p>
-        <h4>&#160;</h4>
-        <h1>Transition to Crown Fire</h1>
+        <h4>Transition to Crown Fire</h4>
         <p>The <b>Transition Ratio</b> compares the surface fireline intensity to the critical fireline intensity for the given conditions. Canopy Base Height and Foliar Moisture Content have the greatest influence on the Transition Ratio.&#160;</p>
         <ul>
             <li>

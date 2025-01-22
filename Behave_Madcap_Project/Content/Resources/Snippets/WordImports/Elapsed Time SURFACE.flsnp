@@ -6,7 +6,6 @@
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Elapsed Time (SURFACE)</h1>
         <p>When calculating fire size, Elapsed Time is the time from when a fire begins spreading at a constant rate (which may be different from the time of ignition) until the time that the size calculation is done.</p>
         <p>In the Surface and Surface/Crown modules, the Rate of Spread is multiplied by Elapsed Time to calculate the Spread Distance.&#160;</p>
-        <p>In the Surface/Contain module, the Elapsed Time is the period between a fire igniting and spreading and the fire being reported. For instance, on a prescribed fire the Elapsed Time is the amount of time between a spot fire igniting and spreading outside of the unit and resources reporting the spot fire.</p>
         <h2>Elapsed Time is Used to Calculate</h2>
         <ul>
             <li>
@@ -17,9 +16,6 @@
             </li>
             <li>
                 <p>Spread Distance</p>
-            </li>
-            <li>
-                <p>Fire Area at Report</p>
             </li>
         </ul>
     </body>

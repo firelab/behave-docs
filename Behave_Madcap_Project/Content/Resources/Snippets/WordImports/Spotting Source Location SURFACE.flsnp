@@ -1,41 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
+    <head>
+    </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Spotting Source Location (SURFACE)</h1>
-        <p>Spotting Source Location refers to location where firebrands originate on the terrain.</p>
+        <p>Spotting Source Location refers to the location where firebrands originate on the terrain.</p>
         <p>There are four options:</p>
         <ul>
             <li>
-                <p>Ridge top (RT) </p>
+                <p>Ridge top (RT)</p>
             </li>
             <li>
-                <p>Midslope, windward side (MW) </p>
+                <p>Midslope, windward side (MW)</p>
             </li>
             <li>
-                <p>Valley bottom (VB) </p>
+                <p>Valley bottom (VB)</p>
             </li>
             <li>
                 <p>Midslope, leeward side (ML).</p>
             </li>
         </ul>
-        <p>&#160;</p>
+        <p>The image below shows different terrain locations given a wind moving from left to right.</p>
         <p>
             <img src="../../Images/SpottingSourceLocation/Spotting Source Location SURFACE.jpg" alt="Diagram showing Ridgetop, Midslope windward side, Valley Bottom, and Midslope leeward side." class="img_6" />
         </p>
-        <h2>Spotting Source Location is Used to Calculate</h2>
-        <ul>
-            <li>
-                <p>Maximum Spotting Distance from Torching Trees</p>
-            </li>
-            <li>
-                <p>Maximum Spotting Distance from a Burning Pile</p>
-            </li>
-            <li>
-                <p>Maximum Spotting Distance from a Wind-Driven Surface Fire</p>
-            </li>
-        </ul>
-        <p>&#160;</p>
+        <h2>&#160;</h2>
         <p>&#160;</p>
     </body>
 </html>

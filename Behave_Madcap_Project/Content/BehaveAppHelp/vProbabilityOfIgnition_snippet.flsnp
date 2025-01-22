@@ -3,7 +3,7 @@
     <head />
     <body>
         <h1 class="topictitle">Probability of Ignition</h1>
-        <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:probability_of_ignition:probability_of_ignition:help</span>
+        <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:probability_of_ignition:probability_of_ignition:help behaveplus:surface:output:fire_behavior:probability_of_ignition:probability_of_ignition:help</span>
         </div>
         <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Final_Docs/Probability of Ignition Tool.flsnp" />
     </body>

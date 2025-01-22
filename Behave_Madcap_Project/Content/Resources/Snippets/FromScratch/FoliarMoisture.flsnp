@@ -8,7 +8,7 @@
             <img src="../../Images/FMC_ex.png" alt="Example of foliar moisture content in old versus new needles." />
         </p>
         <p>Since Van Wagner's (1977) crown fire initiation model is an empirical model, it is not suggested to use a foliar moisture content value of less than 70%, but a wide range of values can be used in Behave to evaluate model sensitivity.</p>
-        <h5>Foliar moisture is used to calculate</h5>
+        <h6>Foliar moisture is used to calculate</h6>
         <p>Critical Surface Flame Length</p>
     </body>
     <head>

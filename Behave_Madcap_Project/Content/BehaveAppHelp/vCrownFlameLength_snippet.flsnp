@@ -3,7 +3,7 @@
     <head />
     <body>
         <h1 class="topictitle">Crown Flame Length</h1>
-        <div class="prolog"><span class="metadata">behaveplus:crown:input:spotting:fire_behavior:active_crown_flame_length_hidden:active_crown_flame_length:help behaveplus:crown:input:spotting:fire_behavior:active_crown_flame_length:active_crown_flame_length:help</span>
+        <div class="prolog"><span class="metadata">behaveplus:crown:output:fire_type:fire_behavior:flame_length:help</span>
         </div>
         <MadCap:snippetBlock src="../Resources/Snippets/FromScratch/ActiveCrownFireFlameLength.flsnp" />
     </body>

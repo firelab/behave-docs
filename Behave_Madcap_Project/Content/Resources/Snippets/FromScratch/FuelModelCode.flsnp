@@ -4,5 +4,6 @@
     </head>
     <body>
         <h2 MadCap:conditions="BehaveApp.Title Exclude">Fuel Model Code</h2>
+        <MadCap:snippetBlock src="FuelType.flsnp" />
     </body>
 </html>
