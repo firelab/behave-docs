@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
+    <head>
+    </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Downwind Canopy Height (SURFACE)</h1>
-        <p>Downwind Canopy Height is the average height of the canopy downwind from torching trees. Downwind Canopy Height can be different than Torching Tree Height.</p>
-        <h2>Downwind Canopy Height is Used to Calculate</h2>
-        <ul>
-            <li>
-                <p>Maximum Spotting Distance from Torching Trees</p>
-            </li>
-        </ul>
+        <p>Downwind Canopy Height is the average height of the canopy downwind from torching trees based on the dominant and co-dominant trees. Downwind Canopy Height can be different than Torching Tree Height.</p>
     </body>
 </html>

@@ -4,12 +4,6 @@
     </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Containment Diagram (CONTAIN)</h1>
-        <p>The Containment Diagram depicts the final fire size and final containment status. It also shows constructed fireline at the time the fire was either contained, or when it has escaped initial attack because your selected resources are sissies that are taking a nap near the fireline. </p>
-        <h2>Containment Diagram is Used to Calculate</h2>
-        <ul>
-            <li>
-                <p>None</p>
-            </li>
-        </ul>
+        <p>The Containment Diagram depicts the final fire size and final containment status. It also shows constructed fireline at the time the fire was either contained, or when it has escaped initial attack.</p>
     </body>
 </html>
