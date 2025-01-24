@@ -27,14 +27,18 @@
             <div class="prolog"><span class="metadata">behaveplus:mortality:input:scorch:fire:scorch_height:scorch_height:help behaveplus:mortality:output:scorch:scorch_height:scorch_height:help behaveplus:mortality:output:tree_mortality:tree_mortality:scorch-height:help</span>
             </div>
             <p>Scorch Height is the maximum vertical height above the ground at which lethal scorching of crown foliage occurs. Below this height, the temperature is above the lethal temperature necessary to kill live foliage. This temperature is assumed to be 140 degrees F (60 degrees C).</p>
-            <p>Scorch height is an automated output in the Surface/Mortality module.</p>
+            <p>Scorch Height is an automated output in the Surface/Mortality module.</p>
+            <p>The image below shows the variability that can occur with scorch height. In this case flame lengths were higher in areas that had jackpots of fuel which increased the scorch height to trees near those jackpots.</p>
+            <p>
+                <img src="../../../../../../Resources/Images/ScorchHeight_keating 031.jpg" alt="Scorch height on trees." />
+            </p>
         </div>
         <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched:help">
             <h1 class="topictitle">Tree Crown Length Scorched</h1>
             <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched:help</span>
             </div>
             <p>Tree Crown Length Scorched is the vertical length of the crown that is scorched.</p>
-            <p><b>Total Crown Length</b> = tree height x (crown ratio/10)</p>
+            <p><b>Total Crown Length</b> = tree height x crown ratio</p>
             <p><b>Tree Crown Length Scorched</b> = scorch height - (tree height - total crown length)</p>
             <p><b>Percent Crown Length Scorched</b> = 100 x (crown length scorched/total crown length)</p>
             <p>The following species use the tree crown length scorched model.</p>
@@ -79,7 +83,7 @@
             <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_volume_scorched:help</span>
             </div>
             <p>Tree Crown Volume Scorched is the percentage of the tree crown volume that is scorched.</p>
-            <p><b>Total Crown Length</b> = tree height x (crown ratio/10)</p>
+            <p><b>Total Crown Length</b> = tree height x crown ratio</p>
             <p><b>Crown Length Scorched</b> = scorch height - (tree height - total crown length)</p>
             <p><b>Percent Crown Volume Scorched</b> = 100 x (crown length scorched x (2 x total crown length - crown length scorched)) / total crown length ^2</p>
             <p>The following species use the tree crown volume scorched model.</p>

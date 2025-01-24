@@ -5,7 +5,7 @@
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Tree Crown Length Scorched</h1>
         <p>Tree Crown Length Scorched is the vertical length of the crown that is scorched.</p>
-        <p><b>Total Crown Length</b> = tree height x (crown ratio/10)</p>
+        <p><b>Total Crown Length</b> = tree height x crown ratio</p>
         <p><b>Tree Crown Length Scorched</b> = scorch height - (tree height - total crown length)</p>
         <p><b>Percent Crown Length Scorched</b> = 100 x (crown length scorched/total crown length)</p>
         <p>The following species use the tree crown length scorched model.</p>

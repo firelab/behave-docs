@@ -33,53 +33,47 @@
             <h1 class="topictitle">Contained Area</h1>
             <div class="prolog"><span class="metadata">behaveplus:contain:output:fire:containment:contained_area:help</span>
             </div>
-            <p>Contained Area is the area enclosed with the fireline (Fireline Constructed). If the Line Construction Offset is greater than zero, this area is larger than the predicted fire area at containment. If the fire is predicted to escape, the Contained Area is -1. </p>
-            <p>The contained area is not equivalent to Fire Area in the SURFACE module.</p>
-            <h2>Contained Area is Used to Calculate</h2>
-            <ul>
-                <li>
-                    <p>None</p>
-                </li>
-            </ul>
+            <p>Contained Area is the area enclosed by the fireline (Fireline Constructed). If the Line Construction Offset is greater than zero, this area is larger than the predicted fire area at containment. </p>
+            <p>The contained area is not equivalent to Fire Area in the Surface module.</p>
         </div>
         <div class="div" id="behaveplus:contain:output:fire:containment:time_from_report:help">
             <h1 class="topictitle">Time from Report</h1>
             <div class="prolog"><span class="metadata">behaveplus:contain:output:fire:containment:time_from_report:help</span>
             </div>
             <p>Time from Report is the time that has elapsed from when the fire was reported until it was either successfully contained or it has escaped. A fire is predicted to escape when specified resources are unsuccessful in lining the fire because they have hit the Resource Duration.</p>
-            <h2>Time from Report is Used to Calculate</h2>
-            <ul>
-                <li>
-                    <p>None</p>
-                </li>
-            </ul>
+            <p>The image below shows the timeline for the outputs and inputs used in the containment model. In this example, the single resource was not able to contain the fire.</p>
+            <p>
+                <img src="../../../../../../Resources/Images/Timeline-Resource-Duration-1-Resources-not-contained.jpg" alt="Timeline for inputs and outputs in the containment model." />
+            </p>
+            <p>This can be solved by adding additional resources which increases the total line production rate. The timeline below is for multiple resources. Another way to potentially contain the fire is to increase the Resource Duration.</p>
+            <p>
+                <img src="../../../../../../Resources/Images/Timeline-Resource-Duration-2-Resources-contained.jpg" alt="Timeline for inputs and outputs in the containment model." />
+            </p>
+            <h2>&#160;</h2>
         </div>
         <div class="div" id="behaveplus:contain:output:fire:containment:fireline_constructed:help">
             <h1 class="topictitle">Fireline Constructed</h1>
             <div class="prolog"><span class="metadata">behaveplus:contain:output:fire:containment:fireline_constructed:help</span>
             </div>
             <p>Fireline Constructed is the total length of fireline constructed by all resources at the time the fire was contained, the Resource Duration has been exceeded, or the fire was predicted to have escaped.</p>
-            <p>If the fire is successfully contained, Fireline Constructed is the total length of line constructed by all resources at the time of containment.</p>
-            <p>If containment is not successful, Fireline Constructed is the total length of line constructed by all resources at the time the last available resource ends work on the fire.</p>
-            <h2>Fireline Constructed is Used to Calculate</h2>
+            <p><b>If the fire is successfully contained</b>: </p>
             <ul>
                 <li>
-                    <p>None</p>
+                    <p>Fireline Constructed is the total length of line constructed by all resources at the time of containment.</p>
                 </li>
             </ul>
-            <p>&#160;</p>
+            <p><b>If containment is not successful</b>: </p>
+            <ul>
+                <li>
+                    <p>Fireline Constructed is the total length of line constructed by all resources at the time the last available resource ends work on the fire.</p>
+                </li>
+            </ul>
         </div>
         <div class="div" id="behaveplus:contain:output:fire:containment:containment-diagram:help">
             <h1 class="topictitle">Containment Diagram</h1>
             <div class="prolog"><span class="metadata">behaveplus:contain:output:fire:containment:containment-diagram:help</span>
             </div>
-            <p>The Containment Diagram depicts the final fire size and final containment status. It also shows constructed fireline at the time the fire was either contained, or when it has escaped initial attack because your selected resources are sissies that are taking a nap near the fireline. </p>
-            <h2>Containment Diagram is Used to Calculate</h2>
-            <ul>
-                <li>
-                    <p>None</p>
-                </li>
-            </ul>
+            <p>The Containment Diagram depicts the final fire size and final containment status. It also shows constructed fireline at the time the fire was either contained, or when it has escaped initial attack.</p>
         </div>
     </body>
 </html>
