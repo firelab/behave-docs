@@ -1,43 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
+    <head>
+    </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Line Construction Offset (CONTAIN)</h1>
-        <p>Line Construction Offset is the distance from the fire to where the suppression line is constructed. A construction offset of zero indicates direct attack. Any other line construction offset value indicates an indirect attack.</p>
-        <p>When running CONTAIN, using a line construction offset depends on the predicted flame lengths and the type of resources used. For example, if predicted flame lengths are 5-6 ft and you are using hand crews as the resources in CONTAIN, you should use a line construction offset greater than zero.</p>
-        <p>The following diagram illustrates indirect attack with a line construction offset greater than zero.</p>
+        <p>Line Construction Offset is the distance from the fire to where the suppression line is constructed. A construction offset of zero indicates direct attack. A line construction offset of a few chains indicates a  parallel attack.</p>
+        <p>When running Contain, using a line construction offset depends on the predicted flame lengths and the type of resources used. For example, if predicted flame lengths are 5-6 ft and you are using handcrews as the resources in Contain, you should use a line construction offset greater than zero.</p>
+        <p>The following diagram illustrates parallel attack with a line construction offset greater than zero.</p>
         <p>
             <img src="../../Images/LineConstructionOffset/Line Construction Offset CONTAIN.png" alt="Illustration of Line Construction Offset for Indirect Attack" class="img_3" />
         </p>
-        <h2>Line Construction Offset is Used to Calculate</h2>
-        <ul>
-            <li>
-                <p>Fire Area at Initial Attack: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Fire Perimeter at Initial Attack: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Contain Status: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Time from Report: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Contained Area: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Fireline Constructed: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Number of Resources Used: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Containment Diagram: (CONTAIN)</p>
-            </li>
-            <li>
-                <p>Contained Area: (CONTAIN)</p>
-            </li>
-        </ul>
     </body>
 </html>

@@ -17,15 +17,18 @@
         <p>&#160;</p>
         <p>The Surface/Mortality module is used to predict the probability of mortality for certain tree species. The tree species selected by the user determines the model used to calculate tree mortality in the MORTALITY&#160;module. It is also used to estimate bark thickness for some species. There are 218 species available for use in the MORTALITY&#160;module. There are 13 mortality equations and 40 bark thickness equations. Each species is assigned a mortality model and a bark thickness equation.</p>
         <h2>Mortality Equation</h2>
-        <p>Crown Scorch and Bark Char are the two groups of mortality equations used in the Surface/Mortality module. The mortality equation used depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
-        <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+        <p>Crown scorch and bark char are the two groups of mortality equations used in the Surface/Mortality module. The mortality equation used depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
+        <p>The bark char (also referred to as bole char in other publications) equations are specific to eastern hardwood species and the crown scorch equations apply to all other available species.</p>
+        <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank"><a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a></a>) for additional documentation about tree mortality in the Key Documents.</p>
         <h2>Probability of Mortality</h2>
         <h1 class="topictitle">Probability of Mortality</h1>
         <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:probability_of_mortality:help</span>
         </div>
-        <p>The Probability of Mortality is the likelihood that a tree will be killed by fire. The mortality equation used depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
-        <p>&#160;</p>
-        <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+        <p>The Probability of Mortality is the likelihood that a tree will be killed by fire. The mortality equation used in Behave depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
+        <p>Refer to (the Behave website in Frames) for additional documentation about tree mortality in the Key Documents.</p>
+        <p>
+            <img src="../../../../Resources/Images/ProbOfMortality_AlderCr_Stagg 43.jpg" alt="Post-wildfire effects in a giant sequoia stand." />
+        </p>
         <h2>Scorch Height</h2>
         <p>Scorch Height is the maximum vertical height above the ground at which lethal scorching of crown foliage occurs. Below this height, the temperature is above the lethal temperature necessary to kill live foliage. This temperature is assumed to be 140 degrees F (60 degrees C).</p>
         <p>Scorch Height is an automated output in the Surface/Mortality module.</p>
@@ -130,6 +133,7 @@
         </table>
         <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
         <h2>Bole Char Height</h2>
+        <p>Bark Char Height is measured from the ground to the highest point on the bole (main stem) of a tree that char is detected. This output is automatically provided when one of the species below is selected.</p>
         <p>Bark Char equations are considered the best available science to predict the probability of mortality for ten hardwood species. The equations predict mortality using species, diameter at breast height (DBH), and bark char height.</p>
         <p>This set of equations was developed by Keyser et al. (2018) from 210 plots on 13 National Parks in the Southern U.S. The data were collected typically two years following late dormant season prescribed burns. Bark char height was measured from the ground to the highest point of char regardless of slope position.</p>
         <p>If one of the following species is selected in the Surface/Mortality module, Behave will automatically select the bark char equation.</p>
