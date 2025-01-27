@@ -2,7 +2,7 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head />
     <body>
-        <h1 class="topictitle">Dead Fuel Moisture</h1>
+        <h2>Dead Fuel Moisture</h2>
         <div class="prolog"><span class="metadata">behaveplus:surface:input:fuel_moisture:dead-live-herb-and-live-woody-categories:dead-fuel-moisture:dead-fuel-moisture:help</span>
         </div>
         <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Fuel Moisture SURFACE.flsnp" />
