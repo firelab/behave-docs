@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="BehaveApp.Archive">
-    <head />
-    <body>
-        <h1 class="topictitle">Midflame (eye level) Wind Speed</h1>
-        <div class="prolog"><span class="metadata">behaveplus:mortality:input:scorch:fire:surface-fire-fireline-intensity:midflame-wind-speed:help behaveplus:mortality:input:scorch:weather:midflame_wind_speed:midflame_wind_speed:help behaveplus:mortality:compute-scorch-height:midflame-wind-speed:midflame-eye-level-wind-speed:help behaveplus:mortality:compute-scorch:midflame-wind-speed:midflame-eye-level-wind-speed:help</span>
-        </div>
-    </body>
-</html>
