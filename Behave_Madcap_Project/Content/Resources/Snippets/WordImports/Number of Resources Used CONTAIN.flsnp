@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Number of Resources Used (CONTAIN)</h1>
+        <p>The Number of Resources Used refers to the number of resources required to actually contain the fire. Resources that arrive after the fire is contained are not included.</p>
+    </body>
+</html>

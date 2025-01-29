@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Time from Report (CONTAIN)</h1>
+        <p>Time from Report is the time that has elapsed from when the fire was reported until it was either successfully contained or it has escaped. A fire is predicted to escape when specified resources are unsuccessful in lining the fire because they have hit the Resource Duration.</p>
+        <p>The image below shows the timeline for the outputs and inputs used in the containment model. In this example, the single resource was not able to contain the fire.</p>
+        <p>
+            <img src="../../Images/Timeline-Resource-Duration-1-Resources-not-contained.jpg" alt="Timeline for inputs and outputs in the containment model." />
+        </p>
+        <p>This can be solved by adding additional resources which increases the total line production rate. The timeline below is for multiple resources. Another way to potentially contain the fire is to increase the Resource Duration.</p>
+        <p>
+            <img src="../../Images/Timeline-Resource-Duration-2-Resources-contained.jpg" alt="Timeline for inputs and outputs in the containment model." />
+        </p>
+    </body>
+</html>

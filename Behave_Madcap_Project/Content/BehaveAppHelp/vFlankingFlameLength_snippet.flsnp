@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="BehaveApp.Archive">
+    <head />
+    <body>
+        <h1 class="topictitle">Flanking Flame Length</h1>
+        <div class="prolog"><span class="metadata">behaveplus:surface:output:fire_behavior:surface_fire:flanking:flanking_flame_length:help</span>
+        </div>
+        <p>Flame Length (SURFACE)<p>Flame length is the distance from the middle of the flaming front at the base of the fire to the average tip of the flame. Wind and slope will both cause a flame to tilt. Flame length is a common metric used in the field as it is readily observable. It is related to fireline intensity.</p><p><img alt="" /></p><p>Flame lengths vary with location on a fire, with heading fire having the longest flame lengths and backing fire the shortest flame lengths.</p>Flame Length is Used to Calculate<ul><li>Spotting Distance</li><li>Crown Fire Type</li></ul><p><img alt="" /></p></p>
+    </body>
+</html>

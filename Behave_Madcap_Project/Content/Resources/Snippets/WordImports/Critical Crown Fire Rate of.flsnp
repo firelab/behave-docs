@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Critical Crown Fire Rate of Spread (CROWN)</h1>
+        <p>Critical Crown Fire Rate of Spread is an intermediate value which identifies the spread rate required for a fire to maintain itself as an active crown fire (fire is moving through the trees from crown to crown). Crown Fire Rate of Spread is compared to Critical Crown Fire Rate of Spread to determine whether an active crown fire is possible.</p>
+        <p>Critical Crown Fire Rate of Spread is calculated from canopy bulk density.</p>
+        <h2>Critical Crown Fire Rate of Spread is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Active Ratio</p>
+            </li>
+            <li>
+                <p>Fire Type (indirectly through Active Ratio)</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Rate of Spread (SURFACE)</h1>
+        <p>Rate of Spread is the “speed” at which the fire travels. Fuel moisture, wind speed, slope, and fuel model are held constant in Behave and are assumed uniform although you can use multiple values or a range of values. </p>
+        <p>Surface Rate of Spread is estimated using Rothermel’s (1972, 1983) surface fire spread model. Surface fuel includes dead and live vegetation within 6 feet (1.8 meters) of the ground such as litter, twigs and small branches, grass, and shrubs.</p>
+        <h5>Rate of Spread is Used to Calculate</h5>
+        <ul>
+            <li>
+                <p>Fire Area</p>
+            </li>
+            <li>
+                <p>Fire Perimeter</p>
+            </li>
+        </ul>
+    </body>
+</html>

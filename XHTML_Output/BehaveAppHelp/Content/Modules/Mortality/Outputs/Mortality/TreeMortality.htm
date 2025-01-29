@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html id="TreeMortality" class="topic" lang="en-us" xml:lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../../../../../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/Branding/Branding.css" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" /><title>Tree Mortality</title>
+        <link href="../../../../../BehaveAppHelp.css" rel="stylesheet" />
+        <meta name="tocPath" content="Mortality|Mortality|Tree Mortality" />
+    </head>
+    <body>
+        <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:help</span>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:probability_of_mortality:help">
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:probability_of_mortality:help</span>
+            </div>
+            <p>The Probability of Mortality is the likelihood that a tree will be killed by fire. The mortality equation used in Behave depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
+            <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">the Behave Documentation</a>) for additional documentation about tree mortality in the Key Documents.</p>
+            <p>
+                <img src="../../../../../../Resources/Images/ProbOfMortality_AlderCr_Stagg 43.jpg" alt="Post-wildfire effects in a giant sequoia stand." />
+            </p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:scorch-height:help">
+            <h1 class="topictitle">Scorch Height</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:input:scorch:fire:scorch_height:scorch_height:help behaveplus:mortality:output:scorch:scorch_height:scorch_height:help behaveplus:mortality:output:tree_mortality:tree_mortality:scorch-height:help</span>
+            </div>
+            <p>Scorch Height is the maximum vertical height above the ground at which lethal scorching of crown foliage occurs. Below this height, the temperature is above the lethal temperature necessary to kill live foliage. This temperature is assumed to be 140 degrees F (60 degrees C).</p>
+            <p>Scorch Height is an automated output in the Surface/Mortality module.</p>
+            <p>The image below shows the variability that can occur with scorch height. In this case flame lengths were higher in areas that had jackpots of fuel which increased the scorch height to trees near those jackpots.</p>
+            <p>
+                <img src="../../../../../../Resources/Images/ScorchHeight_keating 031.jpg" alt="Scorch height on trees." />
+            </p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched:help">
+            <h1 class="topictitle">Tree Crown Length Scorched</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched:help</span>
+            </div>
+            <p>Tree Crown Length Scorched is the vertical length of the crown that is scorched.</p>
+            <p><b>Total Crown Length</b> = tree height x crown ratio</p>
+            <p><b>Tree Crown Length Scorched</b> = scorch height - (tree height - total crown length)</p>
+            <p><b>Percent Crown Length Scorched</b> = 100 x (crown length scorched/total crown length)</p>
+            <p>The following species use the tree crown length scorched model.</p>
+            <table style="width: 100%;">
+                <colgroup>
+                    <col />
+                    <col />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td><b>Scientific Name</b>
+                        </td>
+                        <td><b>Common Name</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>Abies magnifica</i>
+                        </td>
+                        <td>red fir</td>
+                    </tr>
+                    <tr>
+                        <td><i>Abies concolor</i>
+                        </td>
+                        <td>white fir</td>
+                    </tr>
+                    <tr>
+                        <td><i>Calocedrus decurrens</i>
+                        </td>
+                        <td>incense cedar</td>
+                    </tr>
+                    <tr>
+                        <td><i>Pinus lambertiana</i>
+                        </td>
+                        <td>sugar pine</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_volume_scorched:help">
+            <h1 class="topictitle">Tree Crown Volume Scorched</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_volume_scorched:help</span>
+            </div>
+            <p>Tree Crown Volume Scorched is the percentage of the tree crown volume that is scorched.</p>
+            <p><b>Total Crown Length</b> = tree height x crown ratio</p>
+            <p><b>Crown Length Scorched</b> = scorch height - (tree height - total crown length)</p>
+            <p><b>Percent Crown Volume Scorched</b> = 100 x (crown length scorched x (2 x total crown length - crown length scorched)) / total crown length ^2</p>
+            <p>The following species use the tree crown volume scorched model.</p>
+            <table style="width: 100%;">
+                <colgroup>
+                    <col />
+                    <col />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td><b>Scientific Name</b>
+                        </td>
+                        <td><b>Common Name</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>Pinus contorta</i>
+                        </td>
+                        <td>lodgepole pine</td>
+                    </tr>
+                    <tr>
+                        <td><i>Pinus albicaulis</i>
+                        </td>
+                        <td>whitebark pine</td>
+                    </tr>
+                    <tr>
+                        <td><i>Picea engelmannii</i>
+                        </td>
+                        <td>Engelmann spruce</td>
+                    </tr>
+                    <tr>
+                        <td><i>Abies lasiocarpa</i>
+                        </td>
+                        <td>subalpine fir</td>
+                    </tr>
+                    <tr>
+                        <td><i>Pinus ponderosa</i>, <i>Pinus jeffreyi</i></td>
+                        <td>ponderosa pine, Jeffrey pine</td>
+                    </tr>
+                    <tr>
+                        <td><i>Pseudotsuga menziesii</i>
+                        </td>
+                        <td>Douglas-fir</td>
+                    </tr>
+                    <tr>
+                        <td><i>Larix occidentalis</i>
+                        </td>
+                        <td>western Larch</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:cvsorcls:help">
+            <h1 class="topictitle">CVSorCLS</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:cvsorcls:help</span>
+            </div>
+            <p>CVSorCLS</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:mortality-equation:help">
+            <h1 class="topictitle">Mortality Equation</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:input:fuelvegetation_overstory:mortality-equation:mortality-equation:help behaveplus:mortality:output:tree_mortality:tree_mortality:mortality-equation:help</span>
+            </div>
+            <p>Crown scorch and bark char are the two groups of mortality equations used in the Surface/Mortality module. The mortality equation used depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</p>
+            <p>The bark char (also referred to as bole char in other publications) equations are specific to eastern hardwood species and the crown scorch equations apply to all other available species.</p>
+            <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank"><a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a></a>) for additional documentation about tree mortality in the Key Documents.</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:bark_thickness:help">
+            <h1 class="topictitle">Bark Thickness</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:bark_thickness:help</span>
+            </div>
+            <p>Bark Thickness is used to calculate tree mortality for some species. Bark thickness is assumed to have a linear relationship to diameter at breast height (DBH).</p>
+            <p><b>Bark thickness = v x DBH</b>, where v is a species-specific bark thickness coefficient.</p>
+            <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:probability-of-mortality-backing:help">
+            <h1 class="topictitle">Probability of Mortality Backing</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:probability-of-mortality-backing:help</span>
+            </div>
+            <p>probability of mortality backing snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:scorch-height-backing:help">
+            <h1 class="topictitle">Scorch Height Backing</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:scorch-height-backing:help</span>
+            </div>
+            <p>scorch height backing snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched_backing:help">
+            <h1 class="topictitle">Tree Crown Length Scorched Backing</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched_backing:help</span>
+            </div>
+            <p>tree crown length scorched backing snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_volume_scorched_backing:help">
+            <h1 class="topictitle">Tree Crown Volume Scorched Backing</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_volume_scorched_backing:help</span>
+            </div>
+            <p>tree crown volume scorched backing snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:probability-of-mortality-flanking:help">
+            <h1 class="topictitle">Probability of Mortality Flanking</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:probability-of-mortality-flanking:help</span>
+            </div>
+            <p>probability of mortality flanking snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:scorch-height-flanking:help">
+            <h1 class="topictitle">Scorch Height Flanking</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:scorch-height-flanking:help</span>
+            </div>
+            <p>scorch height flanking snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched_flanking:help">
+            <h1 class="topictitle">Tree Crown Length Scorched Flanking</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_length_scorched_flanking:help</span>
+            </div>
+            <p>tree crown length scorched flanking snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_volume_scorched_flanking:help">
+            <h1 class="topictitle">Tree Crown Volume Scorched Flanking</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:tree_crown_volume_scorched_flanking:help</span>
+            </div>
+            <p>tree crown volume scorched flanking snippet</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:bole_char_height:help">
+            <h1 class="topictitle">Bole Char Height</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:input:fuelvegetation_overstory:bole-char-height:bole-char-height:help behaveplus:mortality:output:tree_mortality:tree_mortality:bole_char_height:help</span>
+            </div>
+            <p>Bark Char Height is measured from the ground to the highest point on the bole (main stem) of a tree that char is detected. This output is automatically provided when one of the species below is selected.</p>
+            <p>Bark Char equations are considered the best available science to predict the probability of mortality for ten hardwood species. The equations predict mortality using species, diameter at breast height (DBH), and bark char height.</p>
+            <p>This set of equations was developed by Keyser et al. (2018) from 210 plots on 13 National Parks in the Southern U.S. The data were collected typically two years following late dormant season prescribed burns. Bark char height was measured from the ground to the highest point of char regardless of slope position.</p>
+            <p>If one of the following species is selected in the Surface/Mortality module, Behave will automatically select the bark char equation.</p>
+            <table style="width: 100%;">
+                <colgroup>
+                    <col />
+                    <col />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td><b>Scientific Name</b>
+                        </td>
+                        <td><b>Common Name(s)<b></b></b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>Acer rubrum</i>
+                        </td>
+                        <td>red maple</td>
+                    </tr>
+                    <tr>
+                        <td><i>Cornus florida</i>
+                        </td>
+                        <td>flowering dogwood</td>
+                    </tr>
+                    <tr>
+                        <td><i>Nyssa sylvatica</i>
+                        </td>
+                        <td>blackgum, tupelo, black tupelo</td>
+                    </tr>
+                    <tr>
+                        <td><i>Oxydendrum arboreum</i>
+                        </td>
+                        <td>sourwood</td>
+                    </tr>
+                    <tr>
+                        <td><i>Quercus alba</i>
+                        </td>
+                        <td>white oak</td>
+                    </tr>
+                    <tr>
+                        <td><i>Quercus coccinea</i>
+                        </td>
+                        <td>scarlet oak, red oak</td>
+                    </tr>
+                    <tr>
+                        <td><i>Quercus marilandica</i>
+                        </td>
+                        <td>blackjack oak</td>
+                    </tr>
+                    <tr>
+                        <td><i>Quercus montana<i></i></i>
+                        </td>
+                        <td>chestnut oak, tanbark oak</td>
+                    </tr>
+                    <tr>
+                        <td><i>Quercus velutina<i></i></i>
+                        </td>
+                        <td>black oak</td>
+                    </tr>
+                    <tr>
+                        <td><i>Sassafras albidum<i></i></i>
+                        </td>
+                        <td>sassafras, white sassafras</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Refer to (<a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">https://www.frames.gov/behave/documentation-tips-history</a>) for additional documentation about tree mortality in the Key Documents.</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:bole_char_height_backing:help">
+            <h1 class="topictitle">Bole Char Height Backing</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:bole_char_height_backing:help</span>
+            </div>
+            <p>Bole char height backing snippet.</p>
+        </div>
+        <div class="div" id="behaveplus:mortality:output:tree_mortality:tree_mortality:bole_char_height_flanking:help">
+            <h1 class="topictitle">Bole Char Height Flanking</h1>
+            <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:bole_char_height_flanking:help</span>
+            </div>
+            <p>Bole Char height flanking snippet.</p>
+        </div>
+    </body>
+</html>

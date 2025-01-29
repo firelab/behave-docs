@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html id="vTotalLiveFuelLoad" class="topic" lang="en-us" xml:lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../../../Resources/Branding/Branding.css" rel="stylesheet" type="text/css" />
+        <link href="../../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" /><title>Total Live Fuel Load</title>
+        <link href="../../../BehaveAppHelp.css" rel="stylesheet" />
+        <meta name="tocPath" content="Variables|Total Live Fuel Load" />
+    </head>
+    <body id="snippet">
+        <h1 class="topictitle">Total Live Fuel Load</h1>
+        <div class="prolog"><span class="metadata">behaveplus:surface:output:special_case_fuel_models:chaparral:fuel_load:total_live_fuel_load:help</span>
+        </div>
+        <p>Total Fuel Load is the amount of fuel in all six fuel load classes. Five of these classes are defined in the fuel model parameters. The sixth (dead herbaceous fuel) is calculated during fuel load transfer for dynamic fuel models only. <span class="span_1">Note:</span> <span class="span_2">1000-h fuel is not included in the calculation of fire behavior.</span></p>
+        <p>Dead Fuel Load is the amount of dead fuel in the fuel model. There are three size classes: 1-hour, 10-hour, and 100-hour. The name indicates approximately how long it takes for the fuel moisture for a given size class to reach equilibrium with its environment.</p>
+        <ul>
+            <li>
+                <p><span class="span_1">1-h fuel:</span> dead fuel &lt; 0.25 inch in diameter</p>
+            </li>
+            <li>
+                <p><span class="span_1">10-h fuel:</span> dead fuel 0.25 inch to 1 inch in diameter</p>
+            </li>
+            <li>
+                <p><span class="span_1">100-h fuel:</span> dead fuel 1 inch to 3 inches in diameter</p>
+            </li>
+        </ul>
+        <p>Dynamic fuel models also contain both live and dead herbaceous fuel. Dead Herbaceous Fuel Load can change as a result of fuel load transfer in these fuel models.</p>
+        <ul>
+            <li>
+                <p><span class="span_1">Dead herbaceous fuel:</span> herbaceous fuel that has cured. </p>
+            </li>
+        </ul>
+        <p>Live Woody Fuel Load and Live Herbaceous Fuel Load are the amount of live fuel in the fuel model. Live herbaceous fuel load can change as a result of fuel load transfer in dynamic fuel models. Total herbaceous fuel load (dead and live) does not change as fuel is transferred between categories.</p>
+        <ul>
+            <li>
+                <p><span class="span_1">Live herbaceous fuel:</span> grasses, herbs, and forbs</p>
+            </li>
+            <li>
+                <p><span class="span_1">Live woody fuel:</span> leaves and small twigs</p>
+            </li>
+        </ul>
+        <h2>Fuel Load is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Dead Fuel Load </p>
+            </li>
+            <li>
+                <p>Live Woody Fuel Load</p>
+            </li>
+            <li>
+                <p>Live Herbaceous Fuel Load</p>
+            </li>
+            <li>
+                <p>Dead Herbaceous Fuel Load</p>
+            </li>
+            <li>
+                <p>Total Fuel Load</p>
+            </li>
+        </ul>
+    </body>
+</html>

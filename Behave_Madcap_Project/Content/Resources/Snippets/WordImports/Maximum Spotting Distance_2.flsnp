@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Maximum Spotting Distance from a Wind-Driven Surface Fire (SURFACE)</h1>
+        <p>Maximum Spotting Distance from a Wind-Driven Surface Fire is the maximum distance an ember is likely to travel and ignite a spot fire. Most embers land much closer to the fire front.</p>
+        <p>This model is only applicable in grasslands or areas with grass and short shrubs. A subset of fuel models are available when using this spotting model.</p>
+        <p>
+            <img src="../../Images/Grassland_RxFire.jpg" alt="Prescribed fire in a grassland." />
+        </p>
+    </body>
+</html>

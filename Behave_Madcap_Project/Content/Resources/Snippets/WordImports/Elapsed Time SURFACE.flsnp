@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Elapsed Time (SURFACE)</h1>
+        <p>When calculating fire size, Elapsed Time is the time from when a fire begins spreading at a constant rate (which may be different from the time of ignition) until the time that the size calculation is done.</p>
+        <p>In the Surface and Surface/Crown modules, the Rate of Spread is multiplied by Elapsed Time to calculate the Spread Distance.&#160;</p>
+        <h2>Elapsed Time is Used to Calculate</h2>
+        <ul>
+            <li>
+                <p>Fire Area</p>
+            </li>
+            <li>
+                <p>Fire Perimeter</p>
+            </li>
+            <li>
+                <p>Spread Distance</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Resource Duration (CONTAIN)</h1>
+        <p>Resource Duration is the length of time that a given containment resource can sustain its line production rate for the entire shift. A resource begins line construction at the specified Resource Arrival Time, builds line at its specified Resource Line Production Rate, and stops building line when its Resource Duration has been met. Resources are added to the model based on arrival time until the fire is contained, or the fire is predicted to have escaped regardless of resources still in travel status.</p>
+        <p>There is some guesswork when selecting the timeframe to use for Resource Duration as you don't know the exact time during the burn period that a spot or slopover will occur. Use a value that you can justify and use the Notes section to explain your rationale for documentation.</p>
+    </body>
+</html>

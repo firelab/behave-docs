@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Resource Name (CONTAIN)</h1>
+        <p>Resource Name is a one-word identifier for each containment resource. The resource name must be a single word without any blanks or tabs. However, hyphens and underscores can be used. A few examples are as follows:</p>
+        <ul>
+            <li>
+                <p>Engine1</p>
+            </li>
+            <li>
+                <p>IHC_1</p>
+            </li>
+            <li>
+                <p>T2_Crew_2</p>
+            </li>
+            <li>
+                <p>Dozer-1</p>
+            </li>
+        </ul>
+    </body>
+</html>

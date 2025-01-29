@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:conditions="BehaveApp.Title Exclude">Containment Diagram (CONTAIN)</h1>
+        <p>The Containment Diagram depicts the final fire size and final containment status. It also shows constructed fireline at the time the fire was either contained, or when it has escaped initial attack.</p>
+    </body>
+</html>

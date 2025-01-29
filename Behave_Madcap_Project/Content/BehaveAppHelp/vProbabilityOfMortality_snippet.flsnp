@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 class="topictitle" MadCap:conditions="BehaveApp.Title Exclude">Probability of Mortality</h1>
+        <div class="prolog"><span class="metadata">behaveplus:mortality:output:tree_mortality:tree_mortality:probability_of_mortality:help</span>
+        </div>
+        <p>
+            <MadCap:annotation MadCap:comment="It's possible I am confused about the two probability of mortality entries in Central. I made them identical." MadCap:createDate="2025-01-24T17:19:23.216Z" MadCap:creator="LaWen Hollingsworth" MadCap:creatorCentralUserId="2982ce3d-a160-4346-99d7-a133c95eaf92" MadCap:editDate="2025-01-24T17:19:26.217Z" MadCap:editor="LaWen Hollingsworth" MadCap:initials="LH">The Probability of Mortality is the likelihood that a tree will be killed by fire. The mortality equation used in Behave depends on the selected tree species. Behave automatically selects the equation in the Surface/Mortality module based on the best available science.</MadCap:annotation>
+        </p>
+        <p>Refer to (<MadCap:annotation MadCap:comment="https://www.frames.gov/behave/documentation-tips-history" MadCap:createDate="2025-01-24T17:16:20.671Z" MadCap:creator="LaWen Hollingsworth" MadCap:creatorCentralUserId="2982ce3d-a160-4346-99d7-a133c95eaf92" MadCap:editDate="2025-01-24T17:20:22.367Z" MadCap:editor="LaWen Hollingsworth" MadCap:initials="LH"><a href="https://www.frames.gov/behave/documentation-tips-history" target="_blank">the Behave Documentation</a></MadCap:annotation>) for additional documentation about tree mortality in the Key Documents.</p>
+        <p>
+            <img src="../Resources/Images/ProbOfMortality_AlderCr_Stagg 43.jpg" alt="Post-wildfire effects in a giant sequoia stand." />
+        </p>
+    </body>
+</html>
