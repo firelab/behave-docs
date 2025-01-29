@@ -4,6 +4,7 @@
     </head>
     <body>
         <h1>Spread Directions</h1>
+        <MadCap:snippetBlock src="../Resources/Snippets/FromScratch/SpreadDirections2.flsnp" />
         <MadCap:snippetBlock src="../Resources/Snippets/WordImports/Spread Direction SURFACE.flsnp" />
     </body>
 </html>
