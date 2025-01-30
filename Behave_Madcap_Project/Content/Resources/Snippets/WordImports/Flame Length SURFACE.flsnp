@@ -25,131 +25,135 @@
             <col />
             <col />
             <col />
-            <tr>
-                <td colspan="2" class="td_1">
-                    <p>Flame<br />Length<br />(ft)</p>
-                </td>
-                <td colspan="2" class="td_1">
-                    <p>Fireline<br />Intensity<br />(Btu/ft/s)</p>
-                </td>
-                <td class="td_1">
-                    <p>Interpretations (Roussopoulos, 1974)</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>(ft)</p>
-                </td>
-                <td>
-                    <p>(m)</p>
-                </td>
-                <td>
-                    <p>(Btu/ft/s)</p>
-                </td>
-                <td>
-                    <p>(kJ/m/s)</p>
-                </td>
-                <td>&#160;</td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Under 4</p>
-                </td>
-                <td>
-                    <p>Under 1.2</p>
-                </td>
-                <td>
-                    <p>Under 100</p>
-                </td>
-                <td>
-                    <p>Under 350</p>
-                </td>
-                <td>
-                    <ul>
-                        <li>
-                            <p>Fires can generally be attacked at the head or flanks using hand tools.</p>
-                        </li>
-                        <li>
-                            <p>Hand line should hold the fire.</p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>4-8</p>
-                </td>
-                <td>
-                    <p>1.2-2.4</p>
-                </td>
-                <td>
-                    <p>100-500</p>
-                </td>
-                <td>
-                    <p>350-1700</p>
-                </td>
-                <td>
-                    <ul>
-                        <li>
-                            <p>Fires are too intense for direct attack on the head using hand tools.</p>
-                        </li>
-                        <li>
-                            <p>Hand line cannot be relied on to hold the fire.</p>
-                        </li>
-                        <li>
-                            <p>Heavy equipment can be effective.</p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>8-11</p>
-                </td>
-                <td>
-                    <p>2.4-3.4</p>
-                </td>
-                <td>
-                    <p>500-1000</p>
-                </td>
-                <td>
-                    <p>1700-3500</p>
-                </td>
-                <td>
-                    <ul>
-                        <li>
-                            <p>Fires may present serious control problems such as torching out, crowning, and spotting.</p>
-                        </li>
-                        <li>
-                            <p>Control efforts at the fire head will probably be ineffective.</p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Over 11</p>
-                </td>
-                <td>
-                    <p>Over 3.4</p>
-                </td>
-                <td>
-                    <p>Over 1000</p>
-                </td>
-                <td>
-                    <p>Over 3500</p>
-                </td>
-                <td>
-                    <ul>
-                        <li>
-                            <p>Crowning, spotting, and major fire runs are probable.</p>
-                        </li>
-                        <li>
-                            <p>Control efforts at head of fire are ineffective.</p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
+            <thead>
+                <tr>
+                    <th colspan="2" class="td_1">
+                        <p>Flame<br />Length<br />(ft)</p>
+                    </th>
+                    <th colspan="2" class="td_1">
+                        <p>Fireline<br />Intensity<br />(Btu/ft/s)</p>
+                    </th>
+                    <th class="td_1">
+                        <p>Interpretations (Roussopoulos, 1974)</p>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <p>(ft)</p>
+                    </th>
+                    <th>
+                        <p>(m)</p>
+                    </th>
+                    <th>
+                        <p>(Btu/ft/s)</p>
+                    </th>
+                    <th>
+                        <p>(kJ/m/s)</p>
+                    </th>
+                    <th>&#160;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>Under 4</p>
+                    </td>
+                    <td>
+                        <p>Under 1.2</p>
+                    </td>
+                    <td>
+                        <p>Under 100</p>
+                    </td>
+                    <td>
+                        <p>Under 350</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Fires can generally be attacked at the head or flanks using hand tools.</p>
+                            </li>
+                            <li>
+                                <p>Hand line should hold the fire.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>4-8</p>
+                    </td>
+                    <td>
+                        <p>1.2-2.4</p>
+                    </td>
+                    <td>
+                        <p>100-500</p>
+                    </td>
+                    <td>
+                        <p>350-1700</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Fires are too intense for direct attack on the head using hand tools.</p>
+                            </li>
+                            <li>
+                                <p>Hand line cannot be relied on to hold the fire.</p>
+                            </li>
+                            <li>
+                                <p>Heavy equipment can be effective.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>8-11</p>
+                    </td>
+                    <td>
+                        <p>2.4-3.4</p>
+                    </td>
+                    <td>
+                        <p>500-1000</p>
+                    </td>
+                    <td>
+                        <p>1700-3500</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Fires may present serious control problems such as torching out, crowning, and spotting.</p>
+                            </li>
+                            <li>
+                                <p>Control efforts at the fire head will probably be ineffective.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Over 11</p>
+                    </td>
+                    <td>
+                        <p>Over 3.4</p>
+                    </td>
+                    <td>
+                        <p>Over 1000</p>
+                    </td>
+                    <td>
+                        <p>Over 3500</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Crowning, spotting, and major fire runs are probable.</p>
+                            </li>
+                            <li>
+                                <p>Control efforts at head of fire are ineffective.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </body>
 </html>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
+    <head>
+    </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Fireline Intensity (SURFACE)</h1>
         <p>Fireline intensity is the amount of heat released per foot of fire front per second. The measurement extends one foot into the flaming zone by definition. It’s a useful metric to evaluate the difficulty of containing a fire. Fireline intensity is a function of rate of spread and heat per unit area.</p>
@@ -12,39 +13,40 @@
             </li>
         </ul>
         <h2>More Information</h2>
-        <p>&#160;</p>
         <table>
             <col />
             <col />
             <col />
             <col />
             <col />
-            <tbody>
+            <thead>
                 <tr>
-                    <td colspan="2" class="td_1">
+                    <th colspan="2" class="td_1">
                         <p>Flame<br />Length<br />(ft)</p>
-                    </td>
-                    <td colspan="2" class="td_1">
+                    </th>
+                    <th colspan="2" class="td_1">
                         <p>Fireline<br />Intensity<br />(Btu/ft/s)</p>
-                    </td>
-                    <td rowspan="1" class="td_1">
+                    </th>
+                    <th rowspan="1" class="td_1">
                         <p>Interpretations (Roussopoulos, 1974)</p>
-                    </td>
+                    </th>
                 </tr>
                 <tr>
-                    <td>
+                    <th>
                         <p>(ft)</p>
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         <p>(m)</p>
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         <p>(Btu/ft/s)</p>
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         <p>(kJ/m/s)</p>
-                    </td>
+                    </th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>
                         <p>Under 4</p>
@@ -146,9 +148,5 @@
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
-        <p>&#160;</p>
-        <p>
-        </p>
     </body>
 </html>

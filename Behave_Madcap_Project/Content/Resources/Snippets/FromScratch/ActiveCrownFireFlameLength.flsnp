@@ -10,17 +10,13 @@
             </li>
         </ul>
         <table style="width: 100%;">
-            <colgroup>
-                <col />
-                <col />
-            </colgroup>
-            <tbody>
-                <tr>
-                    <td><b>Fire Type</b>
-                    </td>
-                    <td><b>Flame Length Equation Used</b>
-                    </td>
-                </tr>
+				<thead>
+					<tr>
+						<th>Fire Type</th>
+						<th>Fire Equation Used</th>
+					</tr>
+				</thead>
+				<tbody>
                 <tr>
                     <td>Surface</td>
                     <td>Byram (1959)</td>

@@ -3,6 +3,17 @@
     <head>
     </head>
     <body>
-        <p>Another Spread Directions Snippet in case the other one sent for review is different than what is needed for Shanna's email send on 1-28-25 PM </p>
+        <p>Another Spread Directions Snippet in case the other one sent for review is different than what is needed for Shanna's email send on 1-28-25 PM</p>
+        <p>Direction of Interest is a unique input displayed in the <i>Spread Directions</i> tab in the Surface module when Direction of Interest is selected as the direction of spread in the outputs. The Direction of Interest ranges from 30-330 degrees in relation to upslope. Within 30 degrees of upslope (331-29 degrees) you can calculate heading fire with no correction.</p>
+        <p>In the scenario below, there is a south wind so slope and wind are aligned (black and blue lines labeled S and W, respectively). There is a whitebark pine stand (WBP) on the ridge to the northeast above the fire. To calculate fire behavior in the direction of the WBP stand, you would select a Direction of Interest of approximately 40 degrees. This will allow you to calculate fire behavior between a heading and flanking fire.</p>
+        <p>
+            <img src="../../Images/DirectionOfInterest.png" alt="Example using direction of interest with slope and wind aligned." />
+        </p>
+        <p>In Behave 7, the output diagram will look similar to the image below with the inputs described above. In addition to showing the direction of interest, the graph will also display heading (max spread), flanking, and backing.</p>
+        <p>
+            <img src="../../Images/DirectionOfInterest_B7ex.png" alt="Example output from Behave7." />
+        </p>
+        <p>You can use Direction of Interest when slope and wind are ALIGNED or when slope and wind are NOT ALIGNED.</p>
+        <p>&#160;</p>
     </body>
 </html>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
+    <head>
+    </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Fuel Moisture (SURFACE)</h1>
         <p>Fuel is split into two general categories: dead and live. The fuel moisture value is calculated as the weight of fuel divided by its oven-dry weight.</p>
@@ -45,71 +46,74 @@
         </ul>
         <h2>More Information: Fuel Moisture (SURFACE)</h2>
         <p>Before estimating fuel moisture values, check the <a href="https://www.wfas.net/index.php/national-fuel-moisture-database-moisture-drought-103">National Fuel Moisture Database</a> for measured fuel moisture values near the fire location. Check with the local unit for any information about additional fuel moisture sampling. </p>
-        <p>Estimating 10-h and 100-h fuel moisture using 1-h fuel moisture</p>
+        <h3>Estimating 10-h and 100-h fuel moisture using 1-h fuel moisture</h3>
         <p>Estimates of dead fuel moisture are based on location. This guideline assumes areas in the Eastern U.S. are more humid.</p>
         <table>
-            <col />
-            <col />
-            <tr>
-                <td>
-                    <p>Location</p>
-                </td>
-                <td>
-                    <p>Calculations</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Western U.S.</p>
-                </td>
-                <td>
-                    <p>Add 1% for each size class.</p>
-                    <ul>
-                        <li>
-                            <p>10-hr = 1-hr fuel moisture + 1%</p>
-                        </li>
-                        <li>
-                            <p>100-hr = 1-h fuel moisture + 2%</p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Eastern U.S.</p>
-                </td>
-                <td>
-                    <p>Add 2% for each size class.</p>
-                    <ul>
-                        <li>
-                            <p>10-hr = 1-hr fuel moisture + 2%</p>
-                        </li>
-                        <li>
-                            <p>100-hr = 1-hr fuel moisture + 4%</p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>
+                        <p>Location</p>
+                    </th>
+                    <th>
+                        <p>Calculations</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>Western U.S.</p>
+                    </td>
+                    <td>
+                        <p>Add 1% for each size class.</p>
+                        <ul>
+                            <li>
+                                <p>10-hr = 1-hr fuel moisture + 1%</p>
+                            </li>
+                            <li>
+                                <p>100-hr = 1-h fuel moisture + 2%</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Eastern U.S.</p>
+                    </td>
+                    <td>
+                        <p>Add 2% for each size class.</p>
+                        <ul>
+                            <li>
+                                <p>10-hr = 1-hr fuel moisture + 2%</p>
+                            </li>
+                            <li>
+                                <p>100-hr = 1-hr fuel moisture + 4%</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
         </table>
         <p>Live fuel moisture content</p>
         <p>Fuel models are either static or dynamic. Dynamic fuel models allow for fuel load transfer between the live herbaceous and dead herbaceous fuel categories.</p>
         <p>If there are no local measurements of live fuel moisture, you will need to estimate them. The values below were designed for herbaceous fuel. For woody fuel moisture, consider trends in the sampled woody fuel moisture. Using a measured value for woody fuel moisture will often give sketchy results. You will often want to use a value much lower than measured.</p>
         <p>For dynamic fuel models, consider the amount of curing in the area.</p>
         <table>
-            <col />
-            <col />
-            <col />
-            <tr>
-                <td>
-                    <p>Herbaceous Moisture</p>
-                </td>
-                <td>
-                    <p>Stage of Vegetative Development</p>
-                </td>
-                <td>
-                    <p>Fuel Load Transfer Portion</p>
-                </td>
-            </tr>
+<thead>
+				<tr>
+					<th>
+						<p>Herbaceous Moisture</p>
+					</th>
+					<th>
+						<p>Stage of Vegetative Development</p>
+					</th>
+					<th>
+						<p>Fuel Load Transfer Portion</p>
+					</th>
+				</tr>
+			
+			</thead><tbody>
+            
             <tr>
                 <td>
                     <p>120%</p>
@@ -186,7 +190,7 @@
                 <td>
                     <p>100%</p>
                 </td>
-            </tr>
+            </tr></tbody>
         </table>
         <p>For static fuel models, consider the amount of curing (above) or the stage of vegetative development. </p>
         <table>

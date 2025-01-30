@@ -9,17 +9,15 @@
         <p><b>Percent Crown Volume Scorched</b> = 100 x (crown length scorched x (2 x total crown length - crown length scorched)) / total crown length ^2</p>
         <p>The following species use the tree crown volume scorched model.</p>
         <table style="width: 100%;">
-            <colgroup>
-                <col />
-                <col />
-            </colgroup>
-            <tbody>
+            <thead>
                 <tr>
-                    <td><b>Scientific Name</b>
-                    </td>
-                    <td><b>Common Name</b>
-                    </td>
+                    <th><b>Scientific Name</b>
+                    </th>
+                    <th><b>Common Name</b>
+                    </th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td><i>Pinus contorta</i>
                     </td>

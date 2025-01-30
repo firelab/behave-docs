@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
-<head></head>
+    <head>
+    </head>
     <body>
         <h1 MadCap:conditions="BehaveApp.Title Exclude">Wind Adjustment Factor (SURFACE)</h1>
         <p>Wind adjustment factor (WAF) is a value between 0 and 1 and is used to adjust the wind speed measured 20-feet above the vegetation to midflame wind speed.</p>
@@ -17,9 +18,6 @@
         <h2>More Information</h2>
         <p>Wind adjustment factor depends on sheltering of fuels from the wind. If fuels are not sheltered from the wind, WAF is a function of fuel bed depth. If fuels are sheltered from the wind, WAF is not affected by the surface fuel model. Sheltering is determined by canopy cover and by position on the slope.</p>
         <table>
-            <col />
-            <col />
-            <col />
             <thead>
                 <tr>
                     <th>
