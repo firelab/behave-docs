@@ -17,51 +17,34 @@
         <h2>Dead Fuel Moisture</h2>
         <div class="prolog"><span class="metadata">behaveplus:surface:input:fuel_moisture:dead-live-herb-and-live-woody-categories:dead-fuel-moisture:dead-fuel-moisture:help</span>
         </div>
-        <p>Fuel is split into two general categories: dead and live. The fuel moisture value is calculated as the weight of fuel divided by its oven-dry weight.</p>
-        <p>Dead fuel moisture is controlled entirely by exposure to environmental conditions and ranges from 0-30%. There are three size classes: 1-hour, 10-hour, and 100-hour. The name indicates approximately how long it takes for the fuel moisture for a given size class to reach equilibrium with its environment. <span class="span_1">Note:</span> <span class="span_2">1000-h fuel is not included in the calculation of fire behavior.</span></p>
+        <p>Fuel is split into two general categories: dead and live. The fuel moisture value is calculated as the weight of fuel divided by its oven-dry weight. Before estimating fuel moisture values, check the <a href="https://fems.fs2c.usda.gov/tables" target="_blank">National Fuel Moisture Database</a> for measured fuel moisture values near the fire location. Check with the local unit for any information about additional fuel moisture sampling.</p>
+        <h4>Moisture Input Mode</h4>
+        <p>There are three methods to enter fuel moisture values in Behave.</p>
+        <p><b>Individual Size Class -</b> The dead and live fuel moisture values displayed depend on the fuel model(s) selected. Users enter dead fuel moisture by size class. Live herbaceous or live woody fuel moisture are required if the fuel model contains live fuel.</p>
+        <p><b>Dead, Live Herb, and Live Woody Categories -</b> A single value is used for all dead fuel. Live herbaceous or live woody fuel moisture are required if the fuel model has a live herbaceous or live woody fuel load, respectively.</p>
+        <p><b>Moisture Scenario -</b> A moisture scenario is a set of values representing the moisture content of each category of surface fuel. A fuel moisture scenario is similar to a fuel model – it is a pre-packaged set of live and dead fuel moisture values used to complete the run. The moisture scenarios used to develop the 40 fuel models are included with Behave (Scott and Burgan 2005).</p>
+        <h4>Dead Fuel Moisture</h4>
+        <p>Dead fuel moisture is controlled entirely by exposure to environmental conditions and ranges from 0-60%. There are three size classes: 1-hour, 10-hour, and 100-hour. The name indicates approximately how long it takes for the fuel moisture for a given size class to reach equilibrium with its environment. Note: 1000-h fuel is not included in the calculation of fire behavior.</p>
         <ul>
             <li>
-                <p><span class="span_1">1-h fuel:</span> fuel &lt; 0.25 inch in diameter</p>
+                <p>1-h fuel: fuel less than 0.25 inch in diameter</p>
             </li>
             <li>
-                <p><span class="span_1">10-h fuel:</span> fuel 0.25 inch to 1 inch in diameter</p>
+                <p>10-h fuel: fuel 0.25 inch to 1 inch in diameter</p>
             </li>
             <li>
-                <p><span class="span_1">100-h fuel:</span> fuel 1 inch to 3 inches in diameter</p>
+                <p>100-h fuel: fuel 1 inch to 3 inches in diameter</p>
             </li>
         </ul>
-        <p>Dynamic fuel models also contain both live and dead herbaceous fuel. Dead Herbaceous Fuel Load can change as a result of fuel load transfer in these fuel models. Herbaceous fuel load transfer occurs when live herbaceous fuel moisture is 30-120%. Dead herbaceous fuel moisture is equal to 1-h fuel moisture.</p>
-        <ul>
-            <li>
-                <p><span class="span_1">Dead herbaceous fuel:</span> herbaceous fuel that has cured. It is based on the amount of live fuel transfer.</p>
-            </li>
-        </ul>
-        <p>Live fuel moisture is based on plant type (herbaceous or woody) as well as seasonality, phenology, and environment. Live herbaceous fuel moisture ranges from 30-250% and live woody fuel moisture ranges from 60-200%.</p>
-        <ul>
-            <li>
-                <p><span class="span_1">Live herbaceous fuel:</span> grasses, herbs, and forbs</p>
-            </li>
-            <li>
-                <p><span class="span_1">Live woody fuel:</span> leaves and small twigs</p>
-            </li>
-        </ul>
-        <h2>Fuel Moisture is Used to Calculate</h2>
-        <ul>
-            <li>
-                <p><span class="span_1">Characteristic Dead Fuel Moisture:</span> A value calculated for dead fuel within the surface fuel bed that weights the individual fuel moistures by the fuel load and surface area-to-volume ratio for each dead fuel class included in a given fuel model. Because of this, the 1-h fuel moisture is the predominant driving variable for calculating surface fire spread.</p>
-            </li>
-            <li>
-                <p><span class="span_1">Characteristic Live Fuel Moisture:</span> A value calculated for live fuel within the surface fuel bed that weights the individual fuel moistures by the fuel load and surface area-to-volume ratio for each live fuel class included in a given fuel model.</p>
-            </li>
-            <li>
-                <p><span class="span_1">Live Fuel Moisture of Extinction:</span> Characteristic moisture content of the live fuel above which the live fuel acts as a heat sink. Below this value, live fuel acts as a heat source, thus contributing to surface fire spread. <span class="span_1">Note:</span> <span class="span_2">Dead Fuel Moisture of Extinction is a fuel model property.</span></p>
-            </li>
-        </ul>
-        <h2>More Information: Fuel Moisture (SURFACE)</h2>
-        <p>Before estimating fuel moisture values, check the <a href="https://www.wfas.net/index.php/national-fuel-moisture-database-moisture-drought-103">National Fuel Moisture Database</a> for measured fuel moisture values near the fire location. Check with the local unit for any information about additional fuel moisture sampling. </p>
-        <h3>Estimating 10-h and 100-h fuel moisture using 1-h fuel moisture</h3>
+        <p>Dynamic fuel models contain both live and dead herbaceous fuel. Dead herbaceous fuel is herbaceous fuel that has cured. It is based on the amount of live fuel transfer, which occurs when live herbaceous fuel moisture is 30-120%. The dead herbaceous fuel surface area-to-volume ratio is equal to that of live herbaceous fuel, and dead herbaceous fuel moisture is equal to 1-h fuel moisture.</p>
+        <p>
+            <img src="../../../../../../Resources/Images/TotalDeadHerbaceousFuelLoad.png" alt="The amount of fuel load transferred between the two classes is a function of Live Herbaceous Fuel Moisture." />
+        </p>
+        <h5>Estimating 10-h and 100-h fuel moisture using 1-h fuel moisture</h5>
         <p>Estimates of dead fuel moisture are based on location. This guideline assumes areas in the Eastern U.S. are more humid.</p>
-        <table>
+        <table align="center" class="table_2">
+            <col />
+            <col />
             <thead>
                 <tr>
                     <th>
@@ -107,45 +90,69 @@
                 </tr>
             </tbody>
         </table>
-        <p>Live fuel moisture content</p>
+        <h4>Live Fuel Moisture</h4>
+        <p>Live fuel moisture is based on plant type (herbaceous or woody) as well as seasonality, phenology, and environment. Live herbaceous fuel moisture ranges from 30-250% and live woody fuel moisture ranges from 60-200%.</p>
+        <ul>
+            <li>
+                <p>Live herbaceous fuel: grasses, herbs, and forbs</p>
+            </li>
+            <li>
+                <p>Live woody fuel: leaves and small twigs</p>
+            </li>
+        </ul>
         <p>Fuel models are either static or dynamic. Dynamic fuel models allow for fuel load transfer between the live herbaceous and dead herbaceous fuel categories.</p>
-        <p>If there are no local measurements of live fuel moisture, you will need to estimate them. The values below were designed for herbaceous fuel. For woody fuel moisture, consider trends in the sampled woody fuel moisture. Using a measured value for woody fuel moisture will often give sketchy results. You will often want to use a value much lower than measured.</p>
-        <p>For dynamic fuel models, consider the amount of curing in the area.</p>
-        <table>
+        <p>To estimate live fuel moisture, consider the amount of curing or the stage of vegetative development.</p>
+        <table align="center" class="table_2">
             <thead>
                 <tr>
                     <th>
-                        <p>Herbaceous Moisture</p>
+                        <p>Moisture Content (%)</p>
                     </th>
                     <th>
-                        <p>Stage of Vegetative Development</p>
+                        <p>Herbaceous Fuels (Grasses and Forbs) (Fuel Moisture 30-250%)</p>
                     </th>
                     <th>
-                        <p>Fuel Load Transfer Portion</p>
+                        <p>Woody Fuels (Shrubs) (Fuel Moisture 60-200%)</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>
-                        <p>120%</p>
+                        <p>250%</p>
                     </td>
                     <td>
-                        <p>Uncured</p>
+                        <p>Herbaceous fuels developing early in the growing cycle.</p>
+                        <p>Herbaceous fuels resist spread.</p>
                     </td>
                     <td>
-                        <p>0%</p>
+                        <p>&#160;</p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>98%</p>
+                        <p>200%</p>
                     </td>
                     <td>
-                        <p>One-quarter cured</p>
+                        <p>Herbaceous fuels still developing with full turgor.</p>
+                        <p>Herbaceous fuels resist spread.</p>
                     </td>
                     <td>
-                        <p>25%</p>
+                        <p>Foliage is new or maturing and still developing, with full turgor.</p>
+                        <p>Shrubs resist spread.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>120%</p>
+                    </td>
+                    <td>
+                        <p>Growth is complete and fuel is 0% cured - fuel load transfer occurs below this value.</p>
+                        <p>Grasses resist spread.</p>
+                    </td>
+                    <td>
+                        <p>Foliage is mature - new growth complete and comparable to older foliage.</p>
+                        <p>Flammable shrubs should burn.</p>
                     </td>
                 </tr>
                 <tr>
@@ -153,21 +160,13 @@
                         <p>90%</p>
                     </td>
                     <td>
-                        <p>One-third cured</p>
+                        <p>Herbaceous fuel 1/3 cured.</p>
+                        <p>Grasses become more flammable and contribute to fire spread.</p>
                     </td>
                     <td>
-                        <p>33.3%</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>75%</p>
-                    </td>
-                    <td>
-                        <p>One-half cured</p>
-                    </td>
-                    <td>
-                        <p>50%</p>
+                        <p>Leaves change color in some deciduous shrubs.</p>
+                        <p>Some shrub species may contribute to fire spread.</p>
+                        <p>Flammable shrubs may burn aggressively.</p>
                     </td>
                 </tr>
                 <tr>
@@ -175,21 +174,12 @@
                         <p>60%</p>
                     </td>
                     <td>
-                        <p>Two-thirds cured</p>
+                        <p>Herbaceous fuel 2/3 cured.</p>
+                        <p>Anticipate increased rates of spread.<br /></p>
                     </td>
                     <td>
-                        <p>66.7%</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>53%</p>
-                    </td>
-                    <td>
-                        <p>Three-quarters cured</p>
-                    </td>
-                    <td>
-                        <p>75%</p>
+                        <p>Woody vegetation considered dormant.</p>
+                        <p>Shrubs contribute to fire intensity.</p>
                     </td>
                 </tr>
                 <tr>
@@ -197,68 +187,27 @@
                         <p>30%</p>
                     </td>
                     <td>
-                        <p>Fully cured</p>
+                        <p>Fully cured, treat as dead fuel.</p>
                     </td>
                     <td>
-                        <p>100%</p>
+                        <p>&#160;</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <p>For static fuel models, consider the amount of curing (above) or the stage of vegetative development. </p>
-        <table>
-            <col />
-            <col />
-            <tr>
-                <td>
-                    <p>Herbaceous Moisture</p>
-                </td>
-                <td>
-                    <p>Stage of Vegetative Development</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>250%</p>
-                </td>
-                <td>
-                    <p>Fresh foliage, annuals developing, early in growing cycle</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>200%</p>
-                </td>
-                <td>
-                    <p>Maturing foliage, still developing with full turgor </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>100%</p>
-                </td>
-                <td>
-                    <p>Mature foliage, new growth complete and comparable to older perennial foliage</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>50%</p>
-                </td>
-                <td>
-                    <p>Entering dormancy, coloration starting, some leaves may have dropped from the stem</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>30%</p>
-                </td>
-                <td>
-                    <p>Completely cured, treat as dead fuel</p>
-                </td>
-            </tr>
-        </table>
-        <h2>Technical Details</h2>
-        <p>Rothermel’s surface spread model assumes there is no fire spread if dead fuel is absent or the characteristic dead fuel moisture value is greater than the dead fuel moisture of extinction. While fire spread can occur when there is only live fuel, it is not included in the surface spread model.</p>
+        <h4>Technical Details</h4>
+        <p>Rothermel’s surface spread model assumes there is no fire spread if dead fuel is absent, or the characteristic dead fuel moisture value is greater than the dead fuel moisture of extinction. While fire spread can occur when there is only live fuel present, it is not included in the surface spread model.</p>
+        <p>Fuel Moisture is Used to Calculate:</p>
+        <ul>
+            <li>
+                <p>Characteristic Dead Fuel Moisture: A value calculated for dead fuel within the surface fuel bed that weights the individual fuel moistures by the fuel load and surface area-to-volume ratio for each dead fuel class included in a given fuel model. Because of this, the 1-h fuel moisture is the predominant driving variable for calculating surface fire spread.</p>
+            </li>
+            <li>
+                <p>Characteristic Live Fuel Moisture: A value calculated for live fuel within the surface fuel bed that weights the individual fuel moistures by the fuel load and surface area-to-volume ratio for each live fuel class included in a given fuel model.</p>
+            </li>
+            <li>
+                <p>Live Fuel Moisture of Extinction: Characteristic moisture content of the live fuel above which the live fuel acts as a heat sink. Below this value, live fuel acts as a heat source, thus contributing to surface fire spread. Note: Dead Fuel Moisture of Extinction is a fuel model property.</p>
+            </li>
+        </ul>
     </body>
 </html>
